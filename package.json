@@ -5,8 +5,12 @@
   "version": "10.26.4",
   "publisher": "wheredoesyourmindgo",
   "icon": "images/logo.png",
+  "activationEvents": [
+    "*"
+  ],
+  "main": "./out/extension.js",
   "engines": {
-    "vscode": "^1.41.0"
+    "vscode": "^1.42.0"
   },
   "galleryBanner": {
     "color": "#2a2827",
@@ -17,11 +21,12 @@
     "url": "https://github.com/wheredoesyourmindgo/gruvbox-concoctis"
   },
   "scripts": {
-    "build": "node --experimental-modules src/build.mjs",
-    "watch": "nodemon --watch src --experimental-modules src/build.mjs",
-    "release:major---": "npm run build && git add . && git commit -m 🆕10.0.0🆕 && vsce publish && git push",
-    "release:minor": "npm run build && git add . && git commit -m 10.26.0 && vsce publish && git push",
-    "release:patch": "npm run build && git add . && git commit -m 10.13.1 && vsce publish && git push"
+    "compile:ts": "tsc -p src",
+    "compile": "yarn compile:ts",
+    "watch:ts": "yarn compile:ts -w",
+    "release:major---": "npm run compile && git add . && git commit -m 🆕10.0.0🆕 && vsce publish && git push",
+    "release:minor": "npm run compile && git add . && git commit -m 10.26.0 && vsce publish && git push",
+    "release:patch": "npm run compile && git add . && git commit -m 10.13.1 && vsce publish && git push"
   },
   "categories": [
     "Themes",
@@ -38,64 +43,54 @@
       {
         "label": "gruvboxConcoctis dark medium",
         "uiTheme": "vs-dark",
-        "path": "./themes/darkMediumMat.json"
+        "path": "./themes/darkMedium.json"
       },
       {
         "label": "gruvboxConcoctis light medium",
         "uiTheme": "vs",
-        "path": "./themes/lightMediumMat.json"
+        "path": "./themes/lightMedium.json"
       },
       {
         "label": "gruvboxConcoctis dark soft",
         "uiTheme": "vs-dark",
-        "path": "./themes/darkSoftMat.json"
+        "path": "./themes/darkSoft.json"
       },
       {
         "label": "gruvboxConcoctis light soft",
         "uiTheme": "vs",
-        "path": "./themes/lightSoftMat.json"
+        "path": "./themes/lightSoft.json"
       },
       {
         "label": "gruvboxConcoctis dark hard",
         "uiTheme": "vs-dark",
-        "path": "./themes/darkHardMat.json"
+        "path": "./themes/darkHard.json"
       },
       {
         "label": "gruvboxConcoctis light hard",
         "uiTheme": "vs",
-        "path": "./themes/lightHardMat.json"
-      },
-      {
-        "label": "gruvboxConcoctis dark hard$",
-        "uiTheme": "vs-dark",
-        "path": "./themes/darkHardOrig.json"
-      },
-      {
-        "label": "gruvboxConcoctis dark medium$",
-        "uiTheme": "vs-dark",
-        "path": "./themes/darkMediumOrig.json"
-      },
-      {
-        "label": "gruvboxConcoctis dark soft$",
-        "uiTheme": "vs-dark",
-        "path": "./themes/darkSoftOrig.json"
-      },
-      {
-        "label": "gruvboxConcoctis light hard$",
-        "uiTheme": "vs",
-        "path": "./themes/lightHardOrig.json"
-      },
-      {
-        "label": "gruvboxConcoctis light medium$",
-        "uiTheme": "vs",
-        "path": "./themes/lightMediumOrig.json"
-      },
-      {
-        "label": "gruvboxConcoctis light soft$",
-        "uiTheme": "vs",
-        "path": "./themes/lightSoftOrig.json"
+        "path": "./themes/lightHard.json"
       }
-    ]
+    ],
+    "configuration": {
+      "title": "Gruvbox Concoctis",
+      "properties": {
+        "gruvboxConcoctis.useOriginalPalette": {
+          "type": "boolean",
+          "default": false,
+          "description": "Use original Gruvbox palette."
+        },
+        "gruvboxConcoctis.useBoldFont": {
+          "type": "boolean",
+          "default": false,
+          "description": "Use bold font."
+        },
+        "gruvboxConcoctis.useItalicFont": {
+          "type": "boolean",
+          "default": true,
+          "description": "Use italic font."
+        }
+      }
+    }
   },
   "dependencies": {},
   "__metadata": {
@@ -104,6 +99,8 @@
     "publisherDisplayName": "wheredoesyourmindgo"
   },
   "devDependencies": {
-    "nodemon": "^2.0.2"
+    "@types/node": "^13.7.4",
+    "@types/vscode": "^1.42.0",
+    "typescript": "^3.8.2"
   }
 }

@@ -619,15 +619,15 @@ export default [
       "keyword.control.export"
     ],
     settings: {
-      fontStyle: "italic"
+      fontStyle: ""
     }
   },
   {
     name: "BOLD",
     scope: [
-      // "keyword", // Too much bold
+      "keyword",
       "keyword.control",
-      // "keyword.operator", // Too much bold
+      "keyword.operator",
       "keyword.other.template",
       "keyword.other.substitution",
       "storage.type.function.arrow",
@@ -646,7 +646,7 @@ export default [
       "keyword.other.new",
       "punctuation.separator.question-mark.cs",
       "storage.type.generic.wildcard",
-      // "source.go keyword.operator", // Too much bold
+      "source.go keyword.operator",
       "punctuation.separator.namespace",
       "constant.other.symbol.ruby punctuation.definition.constant.ruby",
       "variable.parameter",
@@ -700,7 +700,8 @@ export default [
       "source.tf entity.name"
     ],
     settings: {
-      fontStyle: "bold italic"
+      // fontStyle: "bold italic"
+      fontStyle: ""
     }
   },
   {

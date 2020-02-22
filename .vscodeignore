@@ -1,8 +1,13 @@
+.vscode/**
+.vscode-test/**
 .gitignore
 src/**/*
 palette.css
 JavaScript.js
 TypeScript.ts
-vscodecustom.css
-vscode/**/*
-extra/
+extra
+temp/flag.txt
+**/tsconfig.json
+tsconfig.base.json
+tslint.json
+*.log
