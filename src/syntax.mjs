@@ -44,7 +44,8 @@ export default [
       "entity.name.record.field.accessor.elm",
       "storage.modifier.array.bracket",
       "source.css entity.other",
-      "meta.attribute-selector punctuation.definition.entity"
+      "meta.attribute-selector punctuation.definition.entity",
+      "string.template meta.object-literal.key"
     ],
     settings: {
       foreground: "#b2cacd"
