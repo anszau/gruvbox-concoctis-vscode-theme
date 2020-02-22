@@ -8,11 +8,15 @@
 
 > ...this is a work in progress. In the meantime know that this VSCode color scheme is a fork of the [Noctis](https://github.com/liviuschera/noctis) theme that uses the [_same_](https://raw.githubusercontent.com/wheredoesyourmindgo/gruvbox-concoctis/master/extra/same.gif) palette from the super-readable [Gruvbox Material](https://github.com/gruvbox-material/vscode) theme 👍.
 
-<div align="center" style="padding-top:64px;">
+12 Themes are included with this extension. The ones suffixed with a dollar sign use the "original" Gruvbox palette. See [Gruvbox Material](https://github.com/gruvbox-material/vscode) for more notes regarding this.
+
+<div align="center" style="padding-top:32px;padding-bottom:32px;">
 
 ### Dark theme - medium contrast
 
 ![Dark theme - medium contrast](https://github.com/wheredoesyourmindgo/gruvbox-concoctis/raw/master/images/dark.png)
+
+<div style="padding-top:16px;padding-bottom:16px;"></div>
 
 ### Light theme - medium contrast
 
@@ -20,8 +24,18 @@
 
 </div>
 
+### Advice
+
+You may find yourself programming at different times in a given day in various lighting conditions. Sometimes you will be using a big bright desktop display, and other times you may be on a laptop using a much smaller display. Consider [Settings Cycler](https://marketplace.visualstudio.com/items?itemName=hoovercj.vscode-settings-cycler) to quickly find a theme that suits your environment and hardware.
+
+On macOS? Consider [Shifty](https://github.com/thompsonate/Shifty) or something like it. We need 7-9 hours of sleep a night and programming before bed is not helping us.
+
 ### Credits
 
 The font used in screenshots is [Cascadia Code](https://github.com/microsoft/cascadia-code)
 
 <a href="https://www.freepik.com/free-photos-vectors/logo">Logo vector created by roserodionova - www.freepik.com</a>.
+
+As mentioned above,
+
+Both [Noctis](https://github.com/liviuschera/noctis) & [Gruvbox Material](https://github.com/gruvbox-material/vscode) VSCode themes.

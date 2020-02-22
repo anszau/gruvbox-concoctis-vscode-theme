@@ -31,8 +31,7 @@
     "gruvbox",
     "material",
     "noctis",
-    "italic",
-    "bold"
+    "italic"
   ],
   "contributes": {
     "themes": [
