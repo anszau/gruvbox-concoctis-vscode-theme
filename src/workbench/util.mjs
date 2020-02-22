@@ -24,7 +24,7 @@ export default function(palette, name, type, tokenColors) {
       // Activity Bar
       // ---------------------------
       "activityBar.background": palette.bg,
-      "activityBar.dropBackground": `${palette.bg}`,
+      "activityBar.dropBackground": palette.bg,
       "activityBar.foreground": palette.grey0,
       "activityBar.inactiveForeground": palette.bg8,
       "activityBar.border": palette.bg0,
@@ -50,7 +50,7 @@ export default function(palette, name, type, tokenColors) {
       "statusBar.foreground": palette.grey0,
       "statusBar.border": palette.bg0,
       "statusBar.debuggingBackground": `${palette.red}`,
-      "statusBar.debuggingForeground": `${palette.bg}`,
+      "statusBar.debuggingForeground": palette.bg,
       "statusBar.debuggingBorder": `${palette.red}`,
       "statusBar.noFolderForeground": palette.grey1,
       "statusBar.noFolderBackground": palette.bg1,
@@ -63,7 +63,7 @@ export default function(palette, name, type, tokenColors) {
       // Button
       // ---------------------------
       "button.background": `${palette.grey2}`,
-      "button.foreground": `${palette.bg}`,
+      "button.foreground": palette.bg,
       "button.hoverBackground": `${palette.grey1}`,
       // ---------------------------
       // Dropdown
@@ -105,9 +105,9 @@ export default function(palette, name, type, tokenColors) {
       // Editor Tabs
       // ---------------------------
       "tab.activeBackground": palette.bg,
-      "tab.unfocusedActiveBackground": `${palette.bg}`,
+      "tab.unfocusedActiveBackground": palette.bg,
       "tab.activeForeground": palette.yellow,
-      "tab.border": palette.bg0,
+      "tab.border": palette.bg2,
       "tab.inactiveBackground": palette.bg2,
       "tab.inactiveForeground": palette.grey1,
       "tab.unfocusedActiveForeground": palette.grey1,
@@ -214,9 +214,9 @@ export default function(palette, name, type, tokenColors) {
       "terminal.ansiBrightMagenta": `${palette.purple}`,
       "terminal.ansiBrightCyan": `${palette.aqua}`,
       "terminal.ansiBrightWhite": `${palette.fg}`,
-      "terminal.background": `${palette.bg}`,
+      "terminal.background": palette.bg,
       "terminal.foreground": palette.fg,
-      "terminalCursor.background": `${palette.bg}`,
+      "terminalCursor.background": palette.bg,
       "terminalCursor.foreground": palette.fg,
       // ---------------------------
       // Merge Conflicts
@@ -257,7 +257,7 @@ export default function(palette, name, type, tokenColors) {
       // ---------------------------
       // Extensions
       // ---------------------------
-      "extensionButton.prominentForeground": `${palette.bg}`,
+      "extensionButton.prominentForeground": palette.bg,
       "extensionButton.prominentBackground": `${palette.grey2}`,
       "extensionButton.prominentHoverBackground": `${palette.grey1}`,
       focusBorder: `${palette.bg4}`,
@@ -265,7 +265,7 @@ export default function(palette, name, type, tokenColors) {
       // ---------------------------
       // Panel
       // ---------------------------
-      "panel.background": `${palette.bg}`,
+      "panel.background": palette.bg,
       "panel.border": `${palette.bg1}`,
       "panelTitle.activeBorder": `${palette.grey1}`,
       "panelTitle.activeForeground": palette.yellow,
