@@ -390,12 +390,12 @@ export default function(palette, name, type, tokenColors) {
       // ---------------------------
       // Minimap
       // ---------------------------
-      "minimap.findMatchHighlight": "#49d6e9ee",
-      "minimap.errorHighlight": "#e34e1cee",
-      "minimap.warningHighlight": `${palette.orange}ee`,
-      "minimapGutter.addedBackground": `${palette.green}FF`,
-      "minimapGutter.modifiedBackground": `${palette.blue}FF`,
-      "minimapGutter.deletedBackground": `${palette.red}FF`
+      "minimap.findMatchHighlight": `${palette.darkAqua}CC`,
+      "minimap.errorHighlight": `${palette.darkRed}80`,
+      "minimap.warningHighlight": `${palette.darkYellow}80`,
+      "minimapGutter.addedBackground": `${palette.darkGreen}a0`,
+      "minimapGutter.modifiedBackground": `${palette.darkBlue}a0`,
+      "minimapGutter.deletedBackground": `${palette.darkRed}a0`
     },
     tokenColors 
   };

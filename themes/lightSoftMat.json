@@ -272,12 +272,12 @@
       "editor.snippetTabstopHighlightBorder": "#042124",
       "editor.snippetFinalTabstopHighlightBackground": "#03181b",
       "editor.snippetFinalTabstopHighlightBorder": "#042124",
-      "minimap.findMatchHighlight": "#49d6e9ee",
-      "minimap.errorHighlight": "#e34e1cee",
-      "minimap.warningHighlight": "#c35e0aee",
-      "minimapGutter.addedBackground": "#6c782eFF",
-      "minimapGutter.modifiedBackground": "#45707aFF",
-      "minimapGutter.deletedBackground": "#c14a4aFF"
+      "minimap.findMatchHighlight": "#89b482CC",
+      "minimap.errorHighlight": "#ea696280",
+      "minimap.warningHighlight": "#d8a65780",
+      "minimapGutter.addedBackground": "#a9b665a0",
+      "minimapGutter.modifiedBackground": "#7daea3a0",
+      "minimapGutter.deletedBackground": "#ea6962a0"
    },
    "tokenColors": [
       {
