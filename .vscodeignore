@@ -4,3 +4,5 @@ palette.css
 JavaScript.js
 TypeScript.ts
 vscodecustom.css
+vscode/**/*
+extra/
