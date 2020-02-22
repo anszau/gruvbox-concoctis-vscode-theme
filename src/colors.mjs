@@ -4,8 +4,16 @@ import {
   darkSoftPalette,
   lightSoftPalette,
   darkHardPalette,
-  lightHardPalette,
+  lightHardPalette
 } from "./palette/material/index.mjs";
+import {
+  darkMediumPalette as darkMediumPaletteOrig,
+  lightMediumPalette as lightMediumPaletteOrig,
+  darkSoftPalette as darkSoftPaletteOrig,
+  lightSoftPalette as lightSoftPaletteOrig,
+  darkHardPalette as darkHardPaletteOrig,
+  lightHardPalette as lightHardPaletteOrig
+} from "./palette/original/index.mjs";
 
 function producePalette(palette) {
   return {
@@ -33,5 +41,11 @@ export default {
   darkSoftMat: producePalette(darkSoftPalette),
   lightSoftMat: producePalette(lightSoftPalette),
   darkHardMat: producePalette(darkHardPalette),
-  lightHardMat: producePalette(lightHardPalette)
+  lightHardMat: producePalette(lightHardPalette),
+  darkMediumOrig: producePalette(darkMediumPaletteOrig),
+  lightMediumOrig: producePalette(lightMediumPaletteOrig),
+  darkSoftOrig: producePalette(darkSoftPaletteOrig),
+  lightSoftOrig: producePalette(lightSoftPaletteOrig),
+  darkHardOrig: producePalette(darkHardPaletteOrig),
+  lightHardOrig: producePalette(lightHardPaletteOrig)
 };

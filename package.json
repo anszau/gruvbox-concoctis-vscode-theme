@@ -1,80 +1,110 @@
 {
-   "name": "gruvbox-concoctis",
-   "displayName": "Gruvbox Concoctis",
-   "description": "Gruvbox Concoctis are Gruvbox themes",
-   "version": "10.26.0",
-   "publisher": "wheredoesyourmindgo",
-   "icon": "images/logo.png",
-   "engines": {
-      "vscode": "^1.41.0"
-   },
-   "galleryBanner": {
-      "color": "#2a2827",
-      "theme": "dark"
-   },
-   "repository": {
-      "type": "git",
-      "url": "https://github.com/wheredoesyourmindgo/gruvbox-concoctis"
-   },
-   "scripts": {
-      "build": "node --experimental-modules src/build.mjs",
-      "watch": "nodemon --watch src --experimental-modules src/build.mjs",
-      "release:major---": "npm run build && git add . && git commit -m 🆕10.0.0🆕 && vsce publish && git push",
-      "release:minor": "npm run build && git add . && git commit -m 10.26.0 && vsce publish && git push",
-      "release:patch": "npm run build && git add . && git commit -m 10.13.1 && vsce publish && git push"
-   },
-   "categories": [
-      "Themes",
-      "Other"
-   ],
-   "keywords": [
-      "gruvbox",
-      "material",
-      "noctis",
-      "italic",
-      "bold"
-   ],
-   "contributes": {
-      "themes": [
-         {
-            "label": "Concoctis - Dark : Medium Material",
-            "uiTheme": "vs-dark",
-            "path": "./themes/darkMediumMat.json"
-         },
-         {
-            "label": "Concoctis - Light : Medium Material",
-            "uiTheme": "vs",
-            "path": "./themes/lightMediumMat.json"
-         },
-         {
-            "label": "Concoctis - Dark : Soft Material",
-            "uiTheme": "vs-dark",
-            "path": "./themes/darkSoftMat.json"
-         },
-         {
-            "label": "Concoctis - Light : Soft Material",
-            "uiTheme": "vs",
-            "path": "./themes/lightSoftMat.json"
-         },
-         {
-            "label": "Concoctis - Dark : Hard Material",
-            "uiTheme": "vs-dark",
-            "path": "./themes/darkHardMat.json"
-         },
-         {
-            "label": "Concoctis - Light : Hard Material",
-            "uiTheme": "vs",
-            "path": "./themes/lightHardMat.json"
-         }
-      ]
-   },
-   "dependencies": {},
-   "__metadata": {
-      "id": "",
-      "publisherId": "",
-      "publisherDisplayName": "wheredoesyourmindgo"
-   },
-   "devDependencies": {
-      "nodemon": "^2.0.2"
-   }
+  "name": "gruvbox-concoctis",
+  "displayName": "Gruvbox Concoctis",
+  "description": "Gruvbox Concoctis are Gruvbox themes",
+  "version": "10.26.0",
+  "publisher": "wheredoesyourmindgo",
+  "icon": "images/logo.png",
+  "engines": {
+    "vscode": "^1.41.0"
+  },
+  "galleryBanner": {
+    "color": "#2a2827",
+    "theme": "dark"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wheredoesyourmindgo/gruvbox-concoctis"
+  },
+  "scripts": {
+    "build": "node --experimental-modules src/build.mjs",
+    "watch": "nodemon --watch src --experimental-modules src/build.mjs",
+    "release:major---": "npm run build && git add . && git commit -m 🆕10.0.0🆕 && vsce publish && git push",
+    "release:minor": "npm run build && git add . && git commit -m 10.26.0 && vsce publish && git push",
+    "release:patch": "npm run build && git add . && git commit -m 10.13.1 && vsce publish && git push"
+  },
+  "categories": [
+    "Themes",
+    "Other"
+  ],
+  "keywords": [
+    "gruvbox",
+    "material",
+    "noctis",
+    "italic",
+    "bold"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "gruvboxConcoctis dark medium",
+        "uiTheme": "vs-dark",
+        "path": "./themes/darkMediumMat.json"
+      },
+      {
+        "label": "gruvboxConcoctis light medium",
+        "uiTheme": "vs",
+        "path": "./themes/lightMediumMat.json"
+      },
+      {
+        "label": "gruvboxConcoctis dark soft",
+        "uiTheme": "vs-dark",
+        "path": "./themes/darkSoftMat.json"
+      },
+      {
+        "label": "gruvboxConcoctis light soft",
+        "uiTheme": "vs",
+        "path": "./themes/lightSoftMat.json"
+      },
+      {
+        "label": "gruvboxConcoctis dark hard",
+        "uiTheme": "vs-dark",
+        "path": "./themes/darkHardMat.json"
+      },
+      {
+        "label": "gruvboxConcoctis light hard",
+        "uiTheme": "vs",
+        "path": "./themes/lightHardMat.json"
+      },
+      {
+        "label": "gruvboxConcoctis dark hard$",
+        "uiTheme": "vs-dark",
+        "path": "./themes/darkHardOrig.json"
+      },
+      {
+        "label": "gruvboxConcoctis dark medium$",
+        "uiTheme": "vs-dark",
+        "path": "./themes/darkMediumOrig.json"
+      },
+      {
+        "label": "gruvboxConcoctis dark soft$",
+        "uiTheme": "vs-dark",
+        "path": "./themes/darkSoftOrig.json"
+      },
+      {
+        "label": "gruvboxConcoctis light hard$",
+        "uiTheme": "vs",
+        "path": "./themes/lightHardOrig.json"
+      },
+      {
+        "label": "gruvboxConcoctis light medium$",
+        "uiTheme": "vs",
+        "path": "./themes/lightMediumOrig.json"
+      },
+      {
+        "label": "gruvboxConcoctis light soft$",
+        "uiTheme": "vs",
+        "path": "./themes/lightSoftOrig.json"
+      }
+    ]
+  },
+  "dependencies": {},
+  "__metadata": {
+    "id": "",
+    "publisherId": "",
+    "publisherDisplayName": "wheredoesyourmindgo"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
 }

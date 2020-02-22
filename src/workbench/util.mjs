@@ -1,5 +1,5 @@
 export default function(palette, name, type, tokenColors) {
-  const selectionBg = `${palette.bg5}f0`
+  const selectionBg = `${palette.bg5}f0`;
   // const selectionBg = `${palette.darkAqua}40`
   // const selectionBg = `${palette.darkBlue}40`;
   // const selectionBg = `${palette.darkRed}40`;
@@ -180,7 +180,7 @@ export default function(palette, name, type, tokenColors) {
       "editor.selectionHighlightBackground": `${palette.bg7}78`,
       "editor.inactiveSelectionBackground": `${palette.fg}55`,
       "editor.wordHighlightStrongBackground": `${palette.darkAqua}30`,
-      "editor.wordHighlightBackground":  `${palette.bg4}b0`,
+      "editor.wordHighlightBackground": `${palette.bg4}b0`,
       "editor.findMatchBackground": `${palette.darkRed}40`,
       "editor.findMatchHighlightBackground": `${palette.darkAqua}40`,
       "editor.findRangeHighlightBackground": `${palette.darkPurple}40`,
@@ -323,14 +323,14 @@ export default function(palette, name, type, tokenColors) {
       "list.activeSelectionBackground": `${palette.bg3}80`,
       "list.activeSelectionForeground": `${palette.fg0}`,
       "list.dropBackground": `${palette.bg2}80`,
-      "list.focusBackground":`${palette.bg3}80`,
+      "list.focusBackground": `${palette.bg3}80`,
       "list.focusForeground": `${palette.fg0}`,
       "list.highlightForeground": palette.yellow,
       "list.hoverBackground": `${palette.bg}00`,
       "list.hoverForeground": `${palette.fg0}`,
       "list.inactiveFocusBackground": `${palette.bg3}80`,
       "list.inactiveSelectionBackground": `${palette.bg3}80`,
-      "list.inactiveSelectionForeground":  `${palette.grey2}`,
+      "list.inactiveSelectionForeground": `${palette.grey2}`,
       "list.errorForeground": `${palette.red}`,
       "list.warningForeground": `${palette.yellow}`,
       "listFilterWidget.background": `${palette.bg}00`,
@@ -402,6 +402,6 @@ export default function(palette, name, type, tokenColors) {
       "minimapGutter.modifiedBackground": `${palette.darkBlue}a0`,
       "minimapGutter.deletedBackground": `${palette.darkRed}a0`
     },
-    tokenColors 
+    tokenColors
   };
 }

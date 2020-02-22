@@ -6,26 +6,11 @@
    <img width="400" src="https://github.com/wheredoesyourmindgo/gruvbox-concoctis/raw/master/images/titleLogo.png" />
 </p>
 
-Noctis is a collection of light & dark themes with a well balanced blend of warm and cold **medium contrast** colors.
+> ...this is a work in progress. In the meantime... Know that this VSCode color scheme is a fork of [Noctis](https://github.com/liviuschera/noctis) that uses the (using the [_same_](https://raw.githubusercontent.com/wheredoesyourmindgo/gruvbox-concoctis/master/extra/same.gif) palette from the super-readable [Gruvbox Material](https://github.com/gruvbox-material/vscode) theme 👍. 
 
-The theme is designed to:
 
-- be easy on the eyes thus reducing the eye strain
-- give semantic meaning to theme's colors
 
-Noctis comes in 11 versions, 8 are dark and 3 are light.
-
-- _Noctis_, _Noctis Sereno_ & _Noctis Obscuro_ background is a very saturated very dark cold bluish cyan
-- _Noctis Azureus'_ background is a very saturated very dark cold azure
-- _Noctis Bordo's_ background is a very unsaturated very dark warm rose
-- _Noctis Uva's_ background is a unsaturated dark cold blue. For those with more spartan taste
-- _Noctis Minimus'_ background offers a version of the _Azureus_ palette with **much lower saturation**. (Thank you [Draevin](https://github.com/draevin) for your [contribution](https://github.com/liviuschera/noctis/pull/10))
-- _Noctis Viola's_ background is a saturated very dark cold violet
-- _Noctis Lux'_ background is a very saturated very light warm orange
-- _Noctis Hibernus'_ background is a very unsaturated very light cold bluish cyan
-- _Noctis Lilac's_ background is a very unsaturated very light cold blue
-
-<div align="center">
+<!-- <div align="center">
 
 ## Noctis
 
@@ -63,14 +48,14 @@ Noctis comes in 11 versions, 8 are dark and 3 are light.
 
 ![Noctis Hibernus Screenshot](https://github.com/liviuschera/noctis/raw/master/images/noctisHibernus.png)
 
-</div>
+</div> -->
 
----
+<!-- ---
 
 > ## The font used in screenshots &rarr; [Cartograph Mono CF](http://connary.com/cartograph.html)
 
----
+--- -->
 
-## Credits
+### Credits
 
 <a href="https://www.freepik.com/free-photos-vectors/logo">Logo vector created by roserodionova - www.freepik.com</a>.
