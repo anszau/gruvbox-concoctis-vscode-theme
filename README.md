@@ -8,7 +8,7 @@
 
 > ...this is a work in progress. In the meantime know that this VSCode color scheme is a fork of the [Noctis](https://github.com/liviuschera/noctis) theme that uses the [_same_](https://raw.githubusercontent.com/wheredoesyourmindgo/gruvbox-concoctis/master/extra/same.gif) palette from the super-readable [Gruvbox Material](https://github.com/gruvbox-material/vscode) theme 👍.
 
-12 Themes are included with this extension. The ones suffixed with a dollar sign use the "original" Gruvbox palette. See [Gruvbox Material](https://github.com/gruvbox-material/vscode) for more notes regarding this.
+12 Themes are included with this extension. The ones suffixed with a dollar sign use the "original" Gruvbox palette.
 
 <div align="center" style="padding-top:32px;padding-bottom:32px;">
 
