@@ -7,7 +7,7 @@ export default function(palette, name, type, tokenColors) {
       // Editor Base Colors
       // ---------------------------
       "selection.background": `${palette.fg}C7`,
-      descriptionForeground: palette.fg,
+      descriptionForeground: palette.fg1,
       errorForeground: `${palette.red}FF`, // 100%
       "widget.shadow": "#00000044",
       "editor.background": palette.bg,

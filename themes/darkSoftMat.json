@@ -3,7 +3,7 @@
    "type": "dark",
    "colors": {
       "selection.background": "#d4be98C7",
-      "descriptionForeground": "#d4be98",
+      "descriptionForeground": "#c5b18d",
       "errorForeground": "#ea6962FF",
       "widget.shadow": "#00000044",
       "editor.background": "#32302f",
