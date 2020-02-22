@@ -739,7 +739,7 @@
             "entity.name.scope-resolution.function.call"
          ],
          "settings": {
-            "foreground": "#d8a657"
+            "foreground": "#ddc7a1"
          }
       },
       {
@@ -958,7 +958,7 @@
             "keyword.control.def.ruby"
          ],
          "settings": {
-            "fontStyle": "bold"
+            "fontStyle": ""
          }
       },
       {

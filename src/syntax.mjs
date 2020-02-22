@@ -676,7 +676,8 @@ export default [
       "keyword.control.def.ruby"
     ],
     settings: {
-      fontStyle: "bold"
+      // fontStyle: "bold"
+      fontStyle: ""
     }
   },
   {
