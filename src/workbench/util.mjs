@@ -7,7 +7,7 @@ export default function(palette, name, type, tokenColors) {
       // Editor Base Colors
       // ---------------------------
       "selection.background": `${palette.fg}C7`,
-      descriptionForeground: "#FFFFFF",
+      descriptionForeground: palette.fg,
       errorForeground: `${palette.red}FF`, // 100%
       "widget.shadow": "#00000044",
       "editor.background": palette.bg,
@@ -301,12 +301,13 @@ export default function(palette, name, type, tokenColors) {
       // ---------------------------
       // Git status colors in File Explorer
       // ---------------------------
-      "gitDecoration.addedResourceForeground": `${palette.green}FF`,
-      "gitDecoration.modifiedResourceForeground": `${palette.blue}FF`,
-      "gitDecoration.deletedResourceForeground": `${palette.red}FF`,
+      "gitDecoration.addedResourceForeground": `${palette.green}`,
+      "gitDecoration.modifiedResourceForeground": `${palette.blue}`,
+      "gitDecoration.deletedResourceForeground": `${palette.red}`,
       "gitDecoration.untrackedResourceForeground": palette.yellow,
-      "gitDecoration.ignoredResourceForeground": `${palette.grey2}FF`,
-      "gitDecoration.conflictingResourceForeground": "#e4b781",
+      "gitDecoration.ignoredResourceForeground": `${palette.grey2}`,
+      "gitDecoration.conflictingResourceForeground": `${palette.purple}a0`,
+      "gitDecoration.submoduleResourceForeground": `${palette.orange}a0`,
       // ---------------------------
       // Quick Picker
       // ---------------------------
