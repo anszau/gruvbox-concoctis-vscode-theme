@@ -908,9 +908,7 @@
       {
          "name": "BOLD",
          "scope": [
-            "keyword",
             "keyword.control",
-            "keyword.operator",
             "keyword.other.template",
             "keyword.other.substitution",
             "storage.type.function.arrow",
@@ -929,7 +927,6 @@
             "keyword.other.new",
             "punctuation.separator.question-mark.cs",
             "storage.type.generic.wildcard",
-            "source.go keyword.operator",
             "punctuation.separator.namespace",
             "constant.other.symbol.ruby punctuation.definition.constant.ruby",
             "variable.parameter",

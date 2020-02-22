@@ -624,9 +624,9 @@ export default [
   {
     name: "BOLD",
     scope: [
-      "keyword",
+      // "keyword", // Too much bold
       "keyword.control",
-      "keyword.operator",
+      // "keyword.operator", // Too much bold
       "keyword.other.template",
       "keyword.other.substitution",
       "storage.type.function.arrow",
@@ -645,7 +645,7 @@ export default [
       "keyword.other.new",
       "punctuation.separator.question-mark.cs",
       "storage.type.generic.wildcard",
-      "source.go keyword.operator",
+      // "source.go keyword.operator", // Too much bold
       "punctuation.separator.namespace",
       "constant.other.symbol.ruby punctuation.definition.constant.ruby",
       "variable.parameter",
