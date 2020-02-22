@@ -2,7 +2,7 @@
    "name": "Concoctis - Dark : Soft Material",
    "type": "dark",
    "colors": {
-      "selection.background": "#d4be98C7",
+      "selection.background": "#514945f0",
       "descriptionForeground": "#c5b18d",
       "errorForeground": "#ea6962FF",
       "widget.shadow": "#00000044",
@@ -117,7 +117,7 @@
       "editorGutter.addedBackground": "#8f9a52a0",
       "editorGutter.deletedBackground": "#ea6962FF",
       "editorGutter.modifiedBackground": "#68948aa0",
-      "editor.selectionBackground": "#92837444",
+      "editor.selectionBackground": "#514945f0",
       "editor.selectionHighlightBackground": "#665c5478",
       "editor.inactiveSelectionBackground": "#d4be9855",
       "editor.wordHighlightStrongBackground": "#72966c30",

@@ -2,7 +2,7 @@
    "name": "Concoctis - Light : Medium Material",
    "type": "light",
    "colors": {
-      "selection.background": "#654735C7",
+      "selection.background": "#e0cfa9f0",
       "descriptionForeground": "#6f4f3c",
       "errorForeground": "#c14a4aFF",
       "widget.shadow": "#00000044",
@@ -117,7 +117,7 @@
       "editorGutter.addedBackground": "#a9b665a0",
       "editorGutter.deletedBackground": "#c14a4aFF",
       "editorGutter.modifiedBackground": "#7daea3a0",
-      "editor.selectionBackground": "#a8998444",
+      "editor.selectionBackground": "#e0cfa9f0",
       "editor.selectionHighlightBackground": "#c9b99a78",
       "editor.inactiveSelectionBackground": "#65473555",
       "editor.wordHighlightStrongBackground": "#89b48230",

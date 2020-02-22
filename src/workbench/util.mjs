@@ -1,4 +1,8 @@
 export default function(palette, name, type, tokenColors) {
+  const selectionBg = `${palette.bg5}f0`
+  // const selectionBg = `${palette.darkAqua}40`
+  // const selectionBg = `${palette.darkBlue}40`;
+  // const selectionBg = `${palette.darkRed}40`;
   return {
     name,
     type,
@@ -6,7 +10,7 @@ export default function(palette, name, type, tokenColors) {
       // ---------------------------
       // Editor Base Colors
       // ---------------------------
-      "selection.background": `${palette.fg}C7`,
+      "selection.background": selectionBg,
       descriptionForeground: palette.fg1,
       errorForeground: `${palette.red}FF`, // 100%
       "widget.shadow": "#00000044",
@@ -172,7 +176,7 @@ export default function(palette, name, type, tokenColors) {
       // ---------------------------
       // Selection Colors
       // ---------------------------
-      "editor.selectionBackground": `${palette.bg9}44`,
+      "editor.selectionBackground": selectionBg,
       "editor.selectionHighlightBackground": `${palette.bg7}78`,
       "editor.inactiveSelectionBackground": `${palette.fg}55`,
       "editor.wordHighlightStrongBackground": `${palette.darkAqua}30`,
