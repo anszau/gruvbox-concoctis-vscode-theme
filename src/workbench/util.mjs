@@ -136,7 +136,7 @@ export default function(palette, name, type, tokenColors) {
       // ---------------------------
       // Input Control
       // ---------------------------
-      "input.background": `${palette.bg}1A`,
+      "input.background": `${palette.bg}80`,
       "input.border": `${palette.bg4}`,
       "input.foreground": `${palette.fg}`,
       "input.placeholderForeground": palette.grey1,

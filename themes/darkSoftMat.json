@@ -90,7 +90,7 @@
       "walkThrough.embeddedEditorBackground": "#2a2827",
       "welcomePage.buttonBackground": "#2a2827",
       "welcomePage.buttonHoverBackground": "#3d3835a0",
-      "input.background": "#32302f1A",
+      "input.background": "#32302f80",
       "input.border": "#46403d",
       "input.foreground": "#d4be98",
       "input.placeholderForeground": "#928374",
