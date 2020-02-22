@@ -8,13 +8,13 @@
 
 > ...this is a work in progress. In the meantime know that this VSCode color scheme is a fork of the [Noctis](https://github.com/liviuschera/noctis) theme that uses the [_same_](https://raw.githubusercontent.com/wheredoesyourmindgo/gruvbox-concoctis/master/extra/same.gif) palette from the super-readable [Gruvbox Material](https://github.com/gruvbox-material/vscode) theme 👍.
 
-<div align="center">
+<div align="center" style="padding-top:64px;">
 
-## Dark theme - medium contrast
+### Dark theme - medium contrast
 
 ![Dark theme - medium contrast](https://github.com/wheredoesyourmindgo/gruvbox-concoctis/raw/master/images/dark.png)
 
-## Light theme - medium contrast
+### Light theme - medium contrast
 
 ![Light theme - medium contrast](https://github.com/wheredoesyourmindgo/gruvbox-concoctis/raw/master/images/light.png)
 
