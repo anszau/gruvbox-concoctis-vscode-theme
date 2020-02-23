@@ -225,16 +225,16 @@ export default function(palette, name, type, tokenColors) {
       // ---------------------------
       // Merge Conflicts
       // ---------------------------
-      "merge.border": "#05252900",
-      "merge.currentContentBackground": "#85f1fFF2",
-      "merge.currentHeaderBackground": "#85f1ff44",
-      "merge.incomingContentBackground": "#9d92FF22",
-      "merge.incomingHeaderBackground": "#9d92FF44",
-      "merge.commonContentBackground": "#ffc18022",
-      "merge.commonHeaderBackground": "#ffc18044",
-      "editorOverviewRuler.currentContentForeground": "#85f1ff44",
-      "editorOverviewRuler.incomingContentForeground": "#9d92FF44",
-      "editorOverviewRuler.commonContentForeground": "#ffc18044",
+      "merge.border": `${palette.bg}00`,
+      "merge.currentContentBackground": `${palette.darkBlue}40`,
+      "merge.currentHeaderBackground": `${palette.darkBlue}80`,
+      "merge.incomingContentBackground": `${palette.darkAqua}40`,
+      "merge.incomingHeaderBackground": `${palette.darkAqua}80`,
+      "merge.commonContentBackground": `${palette.darkAqua}40`,
+      "merge.commonHeaderBackground": `${palette.grey1}`,
+      "editorOverviewRuler.currentContentForeground": `${palette.darkBlue}`,
+      "editorOverviewRuler.incomingContentForeground": `${palette.darkAqua}80`,
+      "editorOverviewRuler.commonContentForeground": `${palette.grey1}`,
       "editorOverviewRuler.border": palette.bg,
       // ---------------------------
       // Notification Colors
@@ -278,19 +278,19 @@ export default function(palette, name, type, tokenColors) {
       // Peek View Colors
       // ---------------------------
       "peekView.border": palette.grey0,
-      "peekViewEditor.background": "#002124",
-      "peekViewEditor.matchHighlightBackground": "#00718079",
-      "peekViewEditor.matchHighlightBorder": "#007180cc",
-      "peekViewEditorGutter.background": "#002124",
+      "peekViewEditor.background": `${palette.bg2}`,
+      "peekViewEditor.matchHighlightBackground": `${palette.darkYellow}50`,
+      "peekViewEditor.matchHighlightBorder": palette.grey0,
+      "peekViewEditorGutter.background": `${palette.bg2}`,
       "peekViewResult.background": palette.bg1,
-      "peekViewResult.fileForeground": "#e4b781",
+      "peekViewResult.fileForeground": `${palette.fg}`,
       "peekViewResult.lineForeground": palette.grey1,
       "peekViewResult.matchHighlightBackground": `${palette.bg4}`,
       "peekViewResult.selectionBackground": `${palette.bg4}`,
       "peekViewResult.selectionForeground": palette.grey1,
       "peekViewTitle.background": palette.bg1,
       "peekViewTitleDescription.foreground": palette.grey1,
-      "peekViewTitleLabel.foreground": "#e4b781",
+      "peekViewTitleLabel.foreground": `${palette.fg}`,
       // ---------------------------
       // Progress Bar
       // ---------------------------
@@ -342,19 +342,19 @@ export default function(palette, name, type, tokenColors) {
       // Settings Editor Colors
       // ---------------------------
       "settings.headerForeground": palette.fg,
-      "settings.modifiedItemIndicator": "#15ac31",
+      "settings.modifiedItemIndicator": palette.green,
       "settings.dropdownListBorder": `${palette.fg}88`,
       "settings.dropdownBackground": `${palette.bg4}`,
-      "settings.dropdownForeground": "#0cc",
+      "settings.dropdownForeground": `${palette.aqua}`,
       "settings.dropdownBorder": `${palette.bg4}`,
       "settings.checkboxBackground": `${palette.bg4}`,
-      "settings.checkboxForeground": "#0cc",
+      "settings.checkboxForeground": `${palette.orange}`,
       "settings.checkboxBorder": `${palette.bg4}`,
       "settings.textInputBackground": `${palette.bg4}`,
-      "settings.textInputForeground": "#0cc",
+      "settings.textInputForeground": `${palette.blue}`,
       "settings.textInputBorder": `${palette.bg4}`,
       "settings.numberInputBackground": palette.bg1,
-      "settings.numberInputForeground": "#7060eb",
+      "settings.numberInputForeground": `${palette.red}`,
       "settings.numberInputBorder": palette.bg1,
       // ---------------------------
       // Breadcrumbs
@@ -378,20 +378,20 @@ export default function(palette, name, type, tokenColors) {
       // ---------------------------
       "menu.background": `${palette.bg4}`,
       "menu.foreground": palette.grey1,
-      "menu.selectionBackground": "#0b515b",
+      "menu.selectionBackground": `${palette.bg2}`,
       "menu.selectionForeground": palette.yellow,
-      "menu.selectionBorder": "#0b515b",
+      "menu.selectionBorder": `${palette.bg}`,
       "menu.separatorBackground": palette.yellow,
-      "menubar.selectionBackground": "#0b515b",
+      "menubar.selectionBackground": `${palette.bg}`,
       "menubar.selectionForeground": palette.yellow,
-      "menubar.selectionBorder": "#0b515b",
+      "menubar.selectionBorder": `${palette.bg}`,
       // ---------------------------
       // Snippets
       // ---------------------------
-      "editor.snippetTabstopHighlightBackground": "#03181b",
-      "editor.snippetTabstopHighlightBorder": "#042124",
-      "editor.snippetFinalTabstopHighlightBackground": "#03181b",
-      "editor.snippetFinalTabstopHighlightBorder": "#042124",
+      "editor.snippetTabstopHighlightBackground": `${palette.bg5}a0`,
+      "editor.snippetTabstopHighlightBorder": `${palette.bg}`,
+      "editor.snippetFinalTabstopHighlightBackground": `${palette.darkGreen}40`,
+      "editor.snippetFinalTabstopHighlightBorder": `${palette.bg}`,
       // ---------------------------
       // Minimap
       // ---------------------------
