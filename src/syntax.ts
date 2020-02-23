@@ -45,8 +45,7 @@ export default [
       "storage.modifier.array.bracket",
       "source.css entity.other",
       "meta.attribute-selector punctuation.definition.entity",
-      "string.template meta.object-literal.key", // ADDED
-      "source.env" // ADDED
+      "string.template meta.object-literal.key" // ADDED
     ],
     settings: {
       foreground: "#b2cacd"
@@ -350,7 +349,8 @@ export default [
       "markup.inserted.diff",
       "source.scala punctuation.definition.character",
       "constant.character.literal.scala",
-      "source.tf entity.name"
+      "source.tf entity.name",
+      "source.env" // ADDED
     ],
     settings: {
       foreground: "#49e9a6"
