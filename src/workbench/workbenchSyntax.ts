@@ -354,7 +354,7 @@ export default function(palette, name, type, tokenColors) {
       "settings.textInputForeground": `${palette.blue}`,
       "settings.textInputBorder": `${palette.bg4}`,
       "settings.numberInputBackground": palette.bg1,
-      "settings.numberInputForeground": `${palette.red}`,
+      "settings.numberInputForeground": `${palette.purple}`,
       "settings.numberInputBorder": palette.bg1,
       // ---------------------------
       // Breadcrumbs
