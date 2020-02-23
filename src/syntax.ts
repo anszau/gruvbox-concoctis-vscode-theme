@@ -45,7 +45,8 @@ export default [
       "storage.modifier.array.bracket",
       "source.css entity.other",
       "meta.attribute-selector punctuation.definition.entity",
-      "string.template meta.object-literal.key"
+      "string.template meta.object-literal.key", // ADDED
+      "source.env" // ADDED
     ],
     settings: {
       foreground: "#b2cacd"
