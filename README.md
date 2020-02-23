@@ -64,10 +64,8 @@ On macOS? Consider [Shifty](https://github.com/thompsonate/Shifty) or something 
 
 ### Credits
 
-The font used in screenshots is [Cascadia Code](https://github.com/microsoft/cascadia-code)
+The font used in screenshots is [Cascadia Code](https://github.com/microsoft/cascadia-code).
 
 <a href="https://www.freepik.com/free-photos-vectors/logo">Logo vector created by roserodionova - www.freepik.com</a>.
 
-As mentioned above,
-
-Both [Noctis](https://github.com/liviuschera/noctis) & [Gruvbox Material](https://github.com/gruvbox-material/vscode) VSCode themes.
+As mentioned above, both [Noctis](https://github.com/liviuschera/noctis) & [Gruvbox Material](https://github.com/gruvbox-material/vscode) VSCode themes.
