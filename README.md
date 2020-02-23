@@ -8,8 +8,6 @@
 
 > ...this is a work in progress. In the meantime know that this VSCode color scheme is a fork of the [Noctis](https://github.com/liviuschera/noctis) theme that uses the [_same_](https://raw.githubusercontent.com/wheredoesyourmindgo/gruvbox-concoctis/master/extra/same.gif) palette from the super-readable [Gruvbox Material](https://github.com/gruvbox-material/vscode) theme 👍.
 
-12 Themes are included with this extension. The ones suffixed with a dollar sign use the "original" Gruvbox palette.
-
 <div align="center" style="padding-top:32px;padding-bottom:32px;">
 
 ### Dark theme - medium contrast
@@ -24,7 +22,35 @@
 
 </div>
 
-### Advice
+### Configuration Settings
+
+The following options can be toggled via Settings:
+
+#### Use original Gruvbox palette
+
+```json
+{
+  "gruvboxConcoctis.useOriginalPalette": true
+}
+```
+
+#### Enable Bold Fonts
+
+```json
+{
+  "gruvboxConcoctis.useBoldFont": true
+}
+```
+
+#### Enable Italic Fonts
+
+```json
+{
+  "gruvboxConcoctis.useItalicFont": true
+}
+```
+
+### Tips
 
 You may find yourself programming at different times in a given day in various lighting conditions. Sometimes you will be using a big bright desktop display, and other times you may be on a laptop using a much smaller display. Consider [Settings Cycler](https://marketplace.visualstudio.com/items?itemName=hoovercj.vscode-settings-cycler) to quickly find a theme that suits your environment and hardware.
 
