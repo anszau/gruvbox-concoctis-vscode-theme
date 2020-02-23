@@ -19,20 +19,20 @@ export function getPalette() {
 
   if (config.useOriginalPalette) {
     return {
-      darkMediumOrigPalette,
-      darkSoftOrigPalette,
-      darkHardOrigPalette,
-      lightMediumOrigPalette,
-      lightSoftOrigPalette,
-      lightHardOrigPalette
+      darkMediumPalette: darkMediumOrigPalette,
+      darkSoftPalette: darkSoftOrigPalette,
+      darkHardPalette: darkHardOrigPalette,
+      lightMediumPalette: lightMediumOrigPalette,
+      lightSoftPalette: lightSoftOrigPalette,
+      lightHardPalette: lightHardOrigPalette
     };
   }
   return {
-    darkMediumMatPalette,
-    darkSoftMatPalette,
-    darkHardMatPalette,
-    lightMediumMatPalette,
-    lightSoftMatPalette,
-    lightHardMatPalette
+    darkMediumPalette: darkMediumMatPalette,
+    darkSoftPalette: darkSoftMatPalette,
+    darkHardPalette: darkHardMatPalette,
+    lightMediumPalette: lightMediumMatPalette,
+    lightSoftPalette: lightSoftMatPalette,
+    lightHardPalette: lightHardMatPalette
   };
 }
