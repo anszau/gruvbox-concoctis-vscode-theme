@@ -1,8 +1,8 @@
 import { getPalette } from "../palette";
-import produceWorkbenchSyntax from "./";
+import workbenchSyntax from "./workbenchSyntax";
 
 export default syntax =>
-  produceWorkbenchSyntax(
+  workbenchSyntax(
     getPalette().lightMediumPalette,
     "Concoctis - Light : Medium",
     "light",

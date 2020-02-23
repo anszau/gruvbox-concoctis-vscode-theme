@@ -1,9 +1,11 @@
-import darkMedium from "./workbench/darkMedium";
-import lightMedium from "./workbench/lightMedium";
-import darkSoft from "./workbench/darkSoft";
-import lightSoft from "./workbench/lightSoft";
-import darkHard from "./workbench/darkHard";
-import lightHard from "./workbench/lightHard";
+import {
+  darkMedium,
+  darkHard,
+  darkSoft,
+  lightHard,
+  lightMedium,
+  lightSoft
+} from "./workbench";
 import { buildAllThemes } from "./buildAllThemes";
 
 export const THEMES = [
@@ -15,4 +17,6 @@ export const THEMES = [
   { lightHard }
 ];
 
-buildAllThemes && buildAllThemes(THEMES);
+if (typeof buildAllThemes === "function") {
+  buildAllThemes(THEMES);
+}
