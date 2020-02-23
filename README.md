@@ -28,6 +28,8 @@ The following options can be toggled via Settings:
 
 #### Use original Gruvbox palette
 
+Default: false
+
 ```json
 {
   "gruvboxConcoctis.useOriginalPalette": true
@@ -36,6 +38,8 @@ The following options can be toggled via Settings:
 
 #### Enable Bold Fonts
 
+Default: false
+
 ```json
 {
   "gruvboxConcoctis.useBoldFont": true
@@ -43,6 +47,8 @@ The following options can be toggled via Settings:
 ```
 
 #### Enable Italic Fonts
+
+Default: true
 
 ```json
 {
