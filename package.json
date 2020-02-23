@@ -36,7 +36,8 @@
     "gruvbox",
     "material",
     "noctis",
-    "italic"
+    "italic",
+    "bold"
   ],
   "contributes": {
     "themes": [
@@ -95,7 +96,7 @@
   "dependencies": {},
   "__metadata": {
     "id": "",
-    "publisherId": "",
+    "publisherId": "wheredoesyourmindgo",
     "publisherDisplayName": "wheredoesyourmindgo"
   },
   "devDependencies": {
