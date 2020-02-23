@@ -1,5 +1,10 @@
 {
   "cSpell.enabled": false,
   "editor.formatOnSave": true,
-  "editor.renderIndentGuides": false
+  "editor.renderIndentGuides": false,
+  "search.exclude": {
+    "**/node_modules": true,
+    "**/*.code-search": true,
+    "out/**/*": true
+  }
 }

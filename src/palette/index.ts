@@ -16,30 +16,23 @@ export function getPalette() {
   const utils = new Utils();
 
   const config = utils.getConfiguration();
-  const darkMediumPalette = config.useOriginalPalette
-    ? darkMediumOrigPalette
-    : darkMediumMatPalette;
-  const darkSoftPalette = config.useOriginalPalette
-    ? darkSoftOrigPalette
-    : darkSoftMatPalette;
-  const darkHardPalette = config.useOriginalPalette
-    ? darkHardOrigPalette
-    : darkHardMatPalette;
-  const lightMediumPalette = config.useOriginalPalette
-    ? lightMediumOrigPalette
-    : lightMediumMatPalette;
-  const lightSoftPalette = config.useOriginalPalette
-    ? lightSoftOrigPalette
-    : lightSoftMatPalette;
-  const lightHardPalette = config.useOriginalPalette
-    ? lightHardOrigPalette
-    : lightHardMatPalette;
+
+  if (config.useOriginalPalette) {
+    return {
+      darkMediumOrigPalette,
+      darkSoftOrigPalette,
+      darkHardOrigPalette,
+      lightMediumOrigPalette,
+      lightSoftOrigPalette,
+      lightHardOrigPalette
+    };
+  }
   return {
-    darkMediumPalette,
-    darkSoftPalette,
-    darkHardPalette,
-    lightMediumPalette,
-    lightSoftPalette,
-    lightHardPalette
+    darkMediumMatPalette,
+    darkSoftMatPalette,
+    darkHardMatPalette,
+    lightMediumMatPalette,
+    lightSoftMatPalette,
+    lightHardMatPalette
   };
 }
