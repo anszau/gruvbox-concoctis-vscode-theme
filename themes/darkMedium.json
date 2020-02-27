@@ -187,7 +187,7 @@
       "focusBorder": "#3d3835",
       "foreground": "#d4be98",
       "panel.background": "#2a2827",
-      "panel.border": "#222120",
+      "panel.border": "#1a1a1a",
       "panelTitle.activeBorder": "#928374",
       "panelTitle.activeForeground": "#d8a657",
       "panelTitle.inactiveForeground": "#928374",
@@ -631,7 +631,8 @@
             "markup.inserted.diff",
             "source.scala punctuation.definition.character",
             "constant.character.literal.scala",
-            "source.tf entity.name"
+            "source.tf entity.name",
+            "source.env"
          ],
          "settings": {
             "foreground": "#a9b665"

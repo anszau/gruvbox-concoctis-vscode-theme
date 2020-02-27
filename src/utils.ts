@@ -1,5 +1,5 @@
 import { workspace, window, commands } from "vscode";
-import * as fs from "fs";
+import { writeFile, existsSync } from "fs";
 import { join } from "path";
 
 export default class Utils {
@@ -18,7 +18,7 @@ export default class Utils {
   }
   private async writeFile(path: string, data: unknown) {
     return new Promise((resolve, reject) => {
-      fs.writeFile(path, JSON.stringify(data, null, 2), err =>
+      writeFile(path, JSON.stringify(data, null, 2), err =>
         err ? reject(err) : resolve()
       );
     });
@@ -26,7 +26,7 @@ export default class Utils {
 
   isNewlyInstalled(): boolean {
     const flagPath = join(__dirname, "../temp", "flag.txt");
-    if (!fs.existsSync(flagPath)) {
+    if (!existsSync(flagPath)) {
       this.writeFile(flagPath, "");
       return true;
     } else {
