@@ -270,7 +270,7 @@ export default function(palette, name, type, tokenColors) {
       // Panel
       // ---------------------------
       "panel.background": palette.bg,
-      "panel.border": `${palette.bg1}`,
+      "panel.border": `${palette.bg0}`,
       "panelTitle.activeBorder": `${palette.grey1}`,
       "panelTitle.activeForeground": palette.yellow,
       "panelTitle.inactiveForeground": palette.grey1,
