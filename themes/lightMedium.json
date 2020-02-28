@@ -31,7 +31,7 @@
       "sideBarSectionHeader.foreground": "#928374FF",
       "sideBarSectionHeader.border": "#f2e5bc",
       "statusBar.background": "#f6ebc1",
-      "statusBar.foreground": "#a89984",
+      "statusBar.foreground": "#928374",
       "statusBar.border": "#f2e5bc",
       "statusBar.debuggingBackground": "#c14a4a",
       "statusBar.debuggingForeground": "#fbf1c7",
