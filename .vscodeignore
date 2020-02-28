@@ -11,3 +11,4 @@ temp/flag.txt
 tsconfig.base.json
 tslint.json
 *.log
+out/standalone
