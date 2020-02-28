@@ -8,7 +8,7 @@ import {
 } from "./workbench";
 import { buildAllThemes } from "./buildAllThemes";
 
-export const THEMES = [
+const THEMES = [
   { darkMedium },
   { lightMedium },
   { darkSoft },
@@ -17,6 +17,4 @@ export const THEMES = [
   { lightHard }
 ];
 
-if (typeof buildAllThemes === "function") {
-  buildAllThemes(THEMES);
-}
+buildAllThemes(THEMES);

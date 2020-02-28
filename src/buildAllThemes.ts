@@ -1,7 +1,6 @@
 import { getColors } from "./colors";
 import { makeThemePath } from "./makeThemePath";
 import { buildTheme } from "./buildTheme";
-import { THEMES } from "./build";
 /**
  *
  *
@@ -9,7 +8,7 @@ import { THEMES } from "./build";
  * @returns {void}
  */
 const buildAllThemes = themesArray => {
-  const THEMES_PATH = makeThemePath(THEMES);
+  const THEMES_PATH = makeThemePath(themesArray);
   const colors = getColors();
   themesArray.forEach(theme => {
     let themeEntries = Object.entries(theme);
