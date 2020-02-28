@@ -6,9 +6,8 @@ import {
   lightMedium,
   lightSoft
 } from "./workbench";
-import { buildAllThemes } from "./buildAllThemes";
 
-const THEMES = [
+export const themes = [
   { darkMedium },
   { lightMedium },
   { darkSoft },
@@ -16,5 +15,3 @@ const THEMES = [
   { darkHard },
   { lightHard }
 ];
-
-buildAllThemes(THEMES);

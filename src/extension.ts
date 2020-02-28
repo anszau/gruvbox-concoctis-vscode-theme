@@ -1,7 +1,7 @@
 import { workspace } from "vscode";
 import Utils from "./utils";
 import { buildAllThemes } from "./buildAllThemes";
-import { THEMES } from "./build";
+import { themes } from "./themes";
 
 export function activate() {
   let utils = new Utils();
@@ -9,7 +9,7 @@ export function activate() {
   // regenerate theme files when user configuration changes
   workspace.onDidChangeConfiguration(event => {
     utils.detectConfigChanges(event, () => {
-      buildAllThemes(THEMES);
+      buildAllThemes(themes);
       utils.promptToReload();
     });
   });
@@ -19,7 +19,7 @@ export function activate() {
     utils.isNewlyInstalled() &&
     !utils.isDefaultConfiguration(utils.getConfiguration())
   ) {
-    buildAllThemes(THEMES);
+    buildAllThemes(themes);
     utils.promptToReload();
   }
 }
