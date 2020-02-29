@@ -56,11 +56,90 @@ Default: true
 }
 ```
 
-### Tips
-
-You may find yourself programming at different times in a given day in various lighting conditions. Sometimes you will be using a big bright desktop display, and other times you may be on a laptop using a much smaller display. Consider [Settings Cycler](https://marketplace.visualstudio.com/items?itemName=hoovercj.vscode-settings-cycler) to quickly find a theme that suits your environment and hardware.
+### Accessibility Tips
 
 On macOS? Consider [Shifty](https://github.com/thompsonate/Shifty) or something like it. We need 7-9 hours of sleep a night and programming before bed is not helping us.
+
+You may find yourself programming at different times in a given day in various lighting conditions. Sometimes you will be using a big bright desktop display, and other times you may be on a laptop using a much smaller (and likely dimmer) display. Consider [Settings Cycler](https://marketplace.visualstudio.com/items?itemName=hoovercj.vscode-settings-cycler) to quickly find a theme that suits your environment and hardware. See below on how this extension can be used with this theme in particular.
+
+#### Example Settings
+
+**settings.json**
+
+```json
+{
+  "settings.cycle": [
+    {
+      "id": "switchTheme",
+      "overrideWorkspaceSettings": false,
+      "values": [
+        {
+          "workbench.colorTheme": "gruvboxConcoctis light soft"
+        },
+        {
+          "workbench.colorTheme": "gruvboxConcoctis light medium"
+        },
+        {
+          "workbench.colorTheme": "gruvboxConcoctis light hard"
+        },
+        {
+          "workbench.colorTheme": "gruvboxConcoctis dark soft"
+        },
+        {
+          "workbench.colorTheme": "gruvboxConcoctis dark medium"
+        },
+        {
+          "workbench.colorTheme": "gruvboxConcoctis dark hard"
+        }
+      ]
+    },
+    {
+      "id": "switchUI",
+      "values": [
+        {
+          "editor.minimap.enabled": true,
+          "workbench.statusBar.visible": true,
+          "workbench.activityBar.visible": true,
+          "breadcrumbs.enabled": true,
+          "editor.lineNumbers": "on",
+          "editor.folding": true,
+          "editor.renderLineHighlight": "gutter",
+          "git.decorations.enabled": true,
+          "scm.diffDecorations": "all",
+          "editor.hideCursorInOverviewRuler": false
+        },
+        {
+          "editor.minimap.enabled": false,
+          "workbench.statusBar.visible": false,
+          "workbench.activityBar.visible": false,
+          "breadcrumbs.enabled": false,
+          "editor.lineNumbers": "off",
+          "editor.folding": false,
+          "editor.renderLineHighlight": "none",
+          "git.decorations.enabled": false,
+          "scm.diffDecorations": "none",
+          "editor.hideCursorInOverviewRuler": true
+        }
+      ]
+    }
+  ]
+}
+```
+
+**keybindings.json**
+
+```json
+[
+  {
+    "key": "ctrl+shift+t",
+    "command": "settings.cycle.switchTheme"
+  },
+  {
+    "key": "ctrl+shift+u",
+    "command": "settings.cycle.switchUI"
+  }
+]
+```
 
 ### Credits
 
