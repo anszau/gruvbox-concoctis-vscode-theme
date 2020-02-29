@@ -25,9 +25,9 @@
     "compile": "yarn compile:ts",
     "watch:ts": "yarn compile:ts -w",
     "build-themes:standalone": "node ./out/standalone/build.js",
-    "release:major---": "npm run compile && build-themes:standalone && git add . && git commit -m 🆕10.0.0🆕 && vsce publish && git push",
-    "release:minor": "npm run compile && build-themes:standalone && git add . && git commit -m 10.26.0 && vsce publish && git push",
-    "release:patch": "npm run compile && build-themes:standalone && git add . && git commit -m 10.13.1 && vsce publish && git push"
+    "release:major": "npm run compile && build-themes:standalone && vsce publish major && git push",
+    "release:minor": "npm run compile && build-themes:standalone && vsce publish minor && git push",
+    "release:patch": "npm run compile && build-themes:standalone && vsce publish patch && git push"
   },
   "categories": [
     "Themes",
