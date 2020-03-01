@@ -202,22 +202,29 @@ export default function(palette, name, type, tokenColors) {
       // ---------------------------
       // Integrated Terminal Colors
       // ---------------------------
-      "terminal.ansiBlack": `${palette.bg7}`,
-      "terminal.ansiRed": `${palette.red}`,
-      "terminal.ansiGreen": `${palette.green}`,
-      "terminal.ansiYellow": `${palette.yellow}`,
-      "terminal.ansiBlue": `${palette.blue}`,
-      "terminal.ansiMagenta": `${palette.purple}`,
-      "terminal.ansiCyan": `${palette.aqua}`,
-      "terminal.ansiWhite": palette.fg,
-      "terminal.ansiBrightBlack": `${palette.bg7}`,
+      "terminal.ansiBlack":
+        (type === "dark" ? palette.darkColor : palette.lightColor) ??
+        `${palette.bg7}`,
+      "terminal.ansiRed": palette.neutralRed ?? `${palette.red}`,
+      "terminal.ansiGreen": palette.neutralGreen ?? `${palette.green}`,
+      "terminal.ansiYellow": palette.neutralYellow ?? `${palette.yellow}`,
+      "terminal.ansiBlue": palette.neutralBlue ?? `${palette.blue}`,
+      "terminal.ansiMagenta": palette.neutralPurple ?? `${palette.purple}`,
+      "terminal.ansiCyan": palette.neutralAqua ?? `${palette.aqua}`,
+      "terminal.ansiWhite":
+        (type === "dark" ? palette.lightGreyColor : palette.darkGreyColor) ??
+        palette.fg,
+      "terminal.ansiBrightBlack": palette.greyColor ?? `${palette.bg7}`,
       "terminal.ansiBrightRed": `${palette.red}`,
       "terminal.ansiBrightGreen": `${palette.green}`,
       "terminal.ansiBrightYellow": `${palette.yellow}`,
       "terminal.ansiBrightBlue": `${palette.blue}`,
       "terminal.ansiBrightMagenta": `${palette.purple}`,
       "terminal.ansiBrightCyan": `${palette.aqua}`,
-      "terminal.ansiBrightWhite": `${palette.fg}`,
+      "terminal.ansiBrightWhite":
+        (type === "dark"
+          ? palette.lightColorOption1
+          : palette.darkColorOption1) ?? `${palette.fg}`,
       "terminal.background": palette.bg,
       "terminal.foreground": palette.fg,
       "terminalCursor.background": palette.bg,

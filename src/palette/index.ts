@@ -11,6 +11,7 @@ import darkSoftOrigPalette from "./original/darkSoft";
 import lightSoftOrigPalette from "./original/lightSoft";
 import darkHardOrigPalette from "./original/darkHard";
 import lightHardOrigPalette from "./original/lightHard";
+import { neutralPalette } from "./original";
 
 export function getPalette() {
   const utils = new Utils();
@@ -19,12 +20,12 @@ export function getPalette() {
 
   if (config.useOriginalPalette) {
     return {
-      darkMediumPalette: darkMediumOrigPalette,
-      darkSoftPalette: darkSoftOrigPalette,
-      darkHardPalette: darkHardOrigPalette,
-      lightMediumPalette: lightMediumOrigPalette,
-      lightSoftPalette: lightSoftOrigPalette,
-      lightHardPalette: lightHardOrigPalette
+      darkMediumPalette: { ...neutralPalette, ...darkMediumOrigPalette },
+      darkSoftPalette: { ...neutralPalette, ...darkSoftOrigPalette },
+      darkHardPalette: { ...neutralPalette, ...darkHardOrigPalette },
+      lightMediumPalette: { ...neutralPalette, ...lightMediumOrigPalette },
+      lightSoftPalette: { ...neutralPalette, ...lightSoftOrigPalette },
+      lightHardPalette: { ...neutralPalette, ...lightHardOrigPalette }
     };
   }
   return {
