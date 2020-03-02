@@ -51,7 +51,7 @@ export default function(palette, name, type, tokenColors) {
       // Status Bar
       // ---------------------------
       "statusBar.background": palette.bg1,
-      "statusBar.foreground": palette.grey1,
+      "statusBar.foreground": palette.grey2,
       "statusBar.border": palette.bg0,
       "statusBar.debuggingBackground": `${palette.red}`,
       "statusBar.debuggingForeground": palette.bg,

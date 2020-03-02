@@ -21,13 +21,13 @@
     "url": "https://github.com/wheredoesyourmindgo/gruvbox-concoctis"
   },
   "scripts": {
-    "compile:ts": "tsc -p src",
-    "compile": "yarn compile:ts",
-    "watch:ts": "yarn compile:ts -w",
+    "build:ts": "tsc -p src",
+    "watch:ts": "yarn build:ts -w",
+    "build": "yarn build:ts",
     "build-themes:standalone": "node ./out/standalone/build.js",
-    "release:major": "yarn compile && yarn build-themes:standalone && vsce publish major && git push",
-    "release:minor": "yarn compile && yarn build-themes:standalone && vsce publish minor && git push",
-    "release:patch": "yarn compile && yarn build-themes:standalone && vsce publish patch && git push"
+    "release:major": "yarn build && yarn build-themes:standalone && vsce publish major && git push",
+    "release:minor": "yarn build && yarn build-themes:standalone && vsce publish minor && git push",
+    "release:patch": "yarn build && yarn build-themes:standalone && vsce publish patch && git push"
   },
   "categories": [
     "Themes",
