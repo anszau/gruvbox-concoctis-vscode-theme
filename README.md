@@ -120,7 +120,9 @@ You may find yourself programming at different times in a given day in various l
           "editor.renderLineHighlight": "gutter",
           "git.decorations.enabled": true,
           "scm.diffDecorations": "all",
-          "editor.hideCursorInOverviewRuler": false
+          "editor.hideCursorInOverviewRuler": false,
+          "gitlens.codeLens.enabled": true,
+          "gitlens.currentLine.enabled": true
         },
         {
           "editor.minimap.enabled": false,
@@ -132,7 +134,9 @@ You may find yourself programming at different times in a given day in various l
           "editor.renderLineHighlight": "none",
           "git.decorations.enabled": false,
           "scm.diffDecorations": "none",
-          "editor.hideCursorInOverviewRuler": true
+          "editor.hideCursorInOverviewRuler": true,
+          "gitlens.codeLens.enabled": false,
+          "gitlens.currentLine.enabled": false
         }
       ]
     }
