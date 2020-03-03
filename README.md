@@ -157,7 +157,9 @@ You may find yourself programming at different times in a given day in various l
 
 ### Credits
 
-The font used in screenshots is [Cascadia Code](https://github.com/microsoft/cascadia-code).
+The font used in screenshots 1 & 2 is [Cascadia Code](https://github.com/microsoft/cascadia-code).
+
+The font used in screenshots 3 & 4 is [PragmataPro](https://www.fsd.it/shop/fonts/pragmatapro/).
 
 <a href="https://www.freepik.com/free-photos-vectors/logo">Logo vector created by roserodionova - www.freepik.com</a>.
 
