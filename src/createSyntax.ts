@@ -9,6 +9,7 @@ import Utils from "./utils";
 export function createSyntax(syntaxColors) {
   const utils = new Utils();
   const config = utils.getConfiguration();
+  const { useItalicFont, useBoldFont } = config;
   syntaxColors = Object.entries(syntaxColors);
   SYNTAX.map(element => {
     const name = element.name.toLowerCase();
@@ -17,19 +18,16 @@ export function createSyntax(syntaxColors) {
         element.settings.foreground = item[1];
       }
     });
-    if (name === "bold" && config.useBoldFont) {
+    if (name === "bold" && useBoldFont) {
       element.settings.fontStyle = "bold";
     }
-    if (name === "italic" && config.useItalicFont) {
+    if (name === "italic" && useItalicFont) {
       element.settings.fontStyle = "italic";
     }
-    if (
-      name === "bold-italic" &&
-      (config.useBoldFont || config.useItalicFont)
-    ) {
-      if (config.useItalicFont && config.useBoldFont) {
+    if (name === "bold-italic" && (useBoldFont || useItalicFont)) {
+      if (useItalicFont && useBoldFont) {
         element.settings.fontStyle = "bold italic";
-      } else if (!config.useItalicFont && config.useBoldFont) {
+      } else if (!useItalicFont && useBoldFont) {
         element.settings.fontStyle = "bold";
       } else {
         element.settings.fontStyle = "italic";

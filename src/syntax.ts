@@ -677,7 +677,6 @@ export default [
       "keyword.control.def.ruby"
     ],
     settings: {
-      // fontStyle: "bold"
       fontStyle: ""
     }
   },
@@ -701,7 +700,6 @@ export default [
       "source.tf entity.name"
     ],
     settings: {
-      // fontStyle: "bold italic"
       fontStyle: ""
     }
   },
