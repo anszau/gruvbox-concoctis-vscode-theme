@@ -161,6 +161,8 @@ The font used in screenshots 1 & 2 is [Cascadia Code](https://github.com/microso
 
 The font used in screenshots 3 & 4 is [PragmataPro](https://www.fsd.it/shop/fonts/pragmatapro/).
 
+The font used in this README's title (logo) is [Dona](https://www.harbortype.com/fonts/dona/) from Harbor Type.
+
 <a href="https://www.freepik.com/free-photos-vectors/logo">Logo vector created by roserodionova - www.freepik.com</a>.
 
 As mentioned above, both [Noctis](https://github.com/liviuschera/noctis) & [Gruvbox Material](https://github.com/gruvbox-material/vscode) VSCode themes.
