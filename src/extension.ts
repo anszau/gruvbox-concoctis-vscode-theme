@@ -15,11 +15,12 @@ export function activate() {
   });
 
   // regenerate theme files and prompt for reload if it's newly installed but the user settings are not default
-  if (utils.isNewlyInstalled()) {
+  if (
+    utils.isNewlyInstalled() &&
+    !utils.isDefaultConfiguration(utils.getConfiguration())
+  ) {
     buildAllThemes(themes);
-    if (!utils.isDefaultConfiguration(utils.getConfiguration())) {
-      utils.promptToReload();
-    }
+    utils.promptToReload();
   }
 }
 
