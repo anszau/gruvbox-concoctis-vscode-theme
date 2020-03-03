@@ -20,6 +20,20 @@
 
 ![Light theme - medium contrast](https://github.com/wheredoesyourmindgo/gruvbox-concoctis/raw/master/images/light.png)
 
+### Dark theme - medium contrast
+
+Original Gruvbox palette w/ bold fonts
+
+![Dark theme - medium contrast - original palette](https://github.com/wheredoesyourmindgo/gruvbox-concoctis/raw/master/images/darkOrig.png)
+
+<div style="padding-top:16px;padding-bottom:16px;"></div>
+
+### Light theme - medium contrast
+
+Original Gruvbox palette w/ bold fonts
+
+![Light theme - medium contrast - original palette](https://github.com/wheredoesyourmindgo/gruvbox-concoctis/raw/master/images/lightOrig.png)
+
 </div>
 
 ### Configuration Settings
