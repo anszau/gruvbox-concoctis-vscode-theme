@@ -14,13 +14,12 @@ export function activate() {
     });
   });
 
-  // regenerate theme files if it's newly installed but the user settings are not default
-  if (
-    utils.isNewlyInstalled() &&
-    !utils.isDefaultConfiguration(utils.getConfiguration())
-  ) {
+  // regenerate theme files and prompt for reload if it's newly installed but the user settings are not default
+  if (utils.isNewlyInstalled()) {
     buildAllThemes(themes);
-    utils.promptToReload();
+    if (!utils.isDefaultConfiguration(utils.getConfiguration())) {
+      utils.promptToReload();
+    }
   }
 }
 
