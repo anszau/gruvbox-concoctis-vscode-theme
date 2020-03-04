@@ -11,13 +11,14 @@ export function createSyntax(syntaxColors) {
   const config = utils.getConfiguration();
   const { useItalicFont, useBoldFont } = config;
   syntaxColors = Object.entries(syntaxColors);
-  SYNTAX.map(element => {
+  return SYNTAX.map(element => {
     const name = element.name.toLowerCase();
     syntaxColors.forEach(item => {
       if (name === item[0].toLowerCase()) {
         element.settings.foreground = item[1];
       }
     });
+    element.settings.fontStyle = ""; // Always reset fontStyle. Will fix issue with unselecting multiple options.
     if (name === "bold" && useBoldFont) {
       element.settings.fontStyle = "bold";
     }
@@ -33,6 +34,6 @@ export function createSyntax(syntaxColors) {
         element.settings.fontStyle = "italic";
       }
     }
+    return element;
   });
-  return SYNTAX;
 }
