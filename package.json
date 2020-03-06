@@ -24,6 +24,7 @@
     "build:ts": "tsc -p src",
     "watch:ts": "yarn build:ts -w",
     "build": "yarn build:ts",
+    "dev": "yarn watch:ts",
     "build-themes:standalone": "node ./out/standalone/build.js",
     "release:major": "yarn build && yarn build-themes:standalone && vsce publish major && git push",
     "release:minor": "yarn build && yarn build-themes:standalone && vsce publish minor && git push",
