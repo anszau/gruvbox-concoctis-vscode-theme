@@ -257,8 +257,8 @@ export default function(palette, name, type, tokenColors) {
       // ---------------------------
       // Diff
       // ---------------------------
-      "diffEditor.insertedTextBackground": `${palette.darkAqua}20`,
-      "diffEditor.removedTextBackground": `${palette.darkRed}20`,
+      "diffEditor.insertedTextBackground": `${palette.darkAqua}29`, // 16%
+      "diffEditor.removedTextBackground": `${palette.darkRed}21`, // 13%
       // ---------------------------
       // Debug
       // ---------------------------
