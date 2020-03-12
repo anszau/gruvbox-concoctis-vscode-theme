@@ -90,7 +90,7 @@
         "gruvboxConcoctis.usePalette": {
           "type": "string",
           "default": "material",
-          "description": "The color palette used in the light variant.",
+          "description": "The color palette used in all variants.",
           "enum": [
             "material",
             "mix",
