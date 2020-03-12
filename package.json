@@ -77,11 +77,6 @@
     "configuration": {
       "title": "Gruvbox Concoctis",
       "properties": {
-        "gruvboxConcoctis.useOriginalPalette": {
-          "type": "boolean",
-          "default": false,
-          "description": "Use original Gruvbox palette."
-        },
         "gruvboxConcoctis.useBoldFont": {
           "type": "boolean",
           "default": false,
@@ -91,6 +86,16 @@
           "type": "boolean",
           "default": true,
           "description": "Use italic font."
+        },
+        "gruvboxConcoctis.usePalette": {
+          "type": "string",
+          "default": "material",
+          "description": "The color palette used in the light variant.",
+          "enum": [
+            "material",
+            "mix",
+            "original"
+          ]
         }
       }
     }

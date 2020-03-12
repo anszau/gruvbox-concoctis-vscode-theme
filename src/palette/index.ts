@@ -5,6 +5,12 @@ import darkSoftMatPalette from "./material/darkSoft";
 import lightSoftMatPalette from "./material/lightSoft";
 import darkHardMatPalette from "./material/darkHard";
 import lightHardMatPalette from "./material/lightHard";
+import darkMediumMixPalette from "./mix/darkMedium";
+import lightMediumMixPalette from "./mix/lightMedium";
+import darkSoftMixPalette from "./mix/darkSoft";
+import lightSoftMixPalette from "./mix/lightSoft";
+import darkHardMixPalette from "./mix/darkHard";
+import lightHardMixPalette from "./mix/lightHard";
 import darkMediumOrigPalette from "./original/darkMedium";
 import lightMediumOrigPalette from "./original/lightMedium";
 import darkSoftOrigPalette from "./original/darkSoft";
@@ -18,7 +24,7 @@ export function getPalette() {
 
   const config = utils.getConfiguration();
 
-  if (config.useOriginalPalette) {
+  if (config.usePalette === "original") {
     return {
       darkMediumPalette: { ...neutralPalette, ...darkMediumOrigPalette },
       darkSoftPalette: { ...neutralPalette, ...darkSoftOrigPalette },
@@ -27,13 +33,23 @@ export function getPalette() {
       lightSoftPalette: { ...neutralPalette, ...lightSoftOrigPalette },
       lightHardPalette: { ...neutralPalette, ...lightHardOrigPalette }
     };
+  } else if (config.usePalette === "") {
+    return {
+      darkMediumPalette: { ...darkMediumMixPalette },
+      darkSoftPalette: { ...darkSoftMixPalette },
+      darkHardPalette: { ...darkHardMixPalette },
+      lightMediumPalette: { ...lightMediumMixPalette },
+      lightSoftPalette: { ...lightSoftMixPalette },
+      lightHardPalette: { ...lightHardMixPalette }
+    };
+  } else {
+    return {
+      darkMediumPalette: darkMediumMatPalette,
+      darkSoftPalette: darkSoftMatPalette,
+      darkHardPalette: darkHardMatPalette,
+      lightMediumPalette: lightMediumMatPalette,
+      lightSoftPalette: lightSoftMatPalette,
+      lightHardPalette: lightHardMatPalette
+    };
   }
-  return {
-    darkMediumPalette: darkMediumMatPalette,
-    darkSoftPalette: darkSoftMatPalette,
-    darkHardPalette: darkHardMatPalette,
-    lightMediumPalette: lightMediumMatPalette,
-    lightSoftPalette: lightSoftMatPalette,
-    lightHardPalette: lightHardMatPalette
-  };
 }

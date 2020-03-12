@@ -46,7 +46,7 @@ Default: false
 
 ```json
 {
-  "gruvboxConcoctis.useOriginalPalette": true
+  "gruvboxConcoctis.usePalette": "material"
 }
 ```
 

@@ -11,7 +11,7 @@ export default class Utils {
   getConfiguration() {
     let workspaceConfiguration = workspace.getConfiguration("gruvboxConcoctis");
     return {
-      useOriginalPalette: workspaceConfiguration.get("useOriginalPalette"),
+      usePalette: workspaceConfiguration.get("usePalette"),
       useBoldFont: workspaceConfiguration.get("useBoldFont"),
       useItalicFont: workspaceConfiguration.get("useItalicFont")
     };
@@ -47,7 +47,7 @@ export default class Utils {
 
   isDefaultConfiguration(configuration) {
     return (
-      configuration.useOriginalPalette !== true &&
+      configuration.usePalette !== "material" &&
       configuration.useBoldFont !== true &&
       configuration.useItalicFont === true
     );
