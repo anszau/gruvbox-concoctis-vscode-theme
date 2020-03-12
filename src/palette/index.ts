@@ -33,7 +33,7 @@ export function getPalette() {
       lightSoftPalette: { ...neutralPalette, ...lightSoftOrigPalette },
       lightHardPalette: { ...neutralPalette, ...lightHardOrigPalette }
     };
-  } else if (config.usePalette === "") {
+  } else if (config.usePalette === "mix") {
     return {
       darkMediumPalette: { ...darkMediumMixPalette },
       darkSoftPalette: { ...darkSoftMixPalette },
