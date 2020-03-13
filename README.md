@@ -40,13 +40,15 @@ Original Gruvbox palette w/ bold fonts
 
 The following options can be toggled via Settings:
 
-#### Use original Gruvbox palette
+#### Use Color Palette
 
-Default: false
+Default: 'material'
+
+Available values: 'material', 'mix', 'original'
 
 ```json
 {
-  "gruvboxConcoctis.usePalette": "material"
+  "gruvboxConcoctis.usePalette": "original"
 }
 ```
 
