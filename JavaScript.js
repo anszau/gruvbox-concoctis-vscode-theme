@@ -28,5 +28,5 @@
 
 
 
-      console.log(Someone);
       let a = () => {};
+      console.log(Someone, a);
