@@ -12,7 +12,11 @@
 
 ### Dark theme
 
+<div align="left">
+
 All screenshots are shown using the 'mix' palette, and with both the Bold fonts option enabled and the Italic fonts option enabled. See [Configuration Settings](#config) below.
+
+</div>
 
 #### medium contrast
 
