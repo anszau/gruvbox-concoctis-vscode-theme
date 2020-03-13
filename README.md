@@ -12,7 +12,7 @@
 
 ### Dark theme
 
-All screenshots are shown with Bold fonts enabled, Italic fonts enabled, and using the 'mix' palette option.
+All screenshots are shown using the 'mix' palette, and with Bold fonts options enabled and the Italic fonts enabled. See [Configuration Settings](#config) below.
 
 #### medium contrast
 
@@ -53,7 +53,7 @@ All screenshots are shown with Bold fonts enabled, Italic fonts enabled, and usi
 <div style="padding-top:16px;padding-bottom:16px;"></div>
 </div>
 
-### Configuration Settings
+### <a name="config"></a>Configuration Settings
 
 The following options can be toggled via Settings:
 
