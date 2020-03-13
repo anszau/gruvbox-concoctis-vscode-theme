@@ -12,7 +12,7 @@
 
 ### Dark theme
 
-All screenshots are shown using the 'mix' palette, and with Bold fonts options enabled and the Italic fonts enabled. See [Configuration Settings](#config) below.
+All screenshots are shown using the 'mix' palette, and with both the Bold fonts option enabled and the Italic fonts option enabled. See [Configuration Settings](#config) below.
 
 #### medium contrast
 
