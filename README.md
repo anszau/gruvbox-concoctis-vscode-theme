@@ -10,30 +10,47 @@
 
 <div align="center" style="padding-top:32px;padding-bottom:32px;">
 
-### Dark theme - medium contrast
+### Dark theme
 
-![Dark theme - medium contrast](https://github.com/wheredoesyourmindgo/gruvbox-concoctis/raw/master/images/dark.png)
+All screenshots are shown with Bold fonts enabled, Italic fonts enabled, and using the 'mix' palette option.
 
-<div style="padding-top:16px;padding-bottom:16px;"></div>
+#### medium contrast
 
-### Light theme - medium contrast
-
-![Light theme - medium contrast](https://github.com/wheredoesyourmindgo/gruvbox-concoctis/raw/master/images/light.png)
-
-### Dark theme - medium contrast
-
-Original Gruvbox palette w/ bold fonts
-
-![Dark theme - medium contrast - original palette](https://github.com/wheredoesyourmindgo/gruvbox-concoctis/raw/master/images/darkOrig.png)
+![Dark theme - medium contrast](https://github.com/wheredoesyourmindgo/gruvbox-concoctis/raw/master/images/darkMedium.png)
 
 <div style="padding-top:16px;padding-bottom:16px;"></div>
 
-### Light theme - medium contrast
+#### soft contrast
 
-Original Gruvbox palette w/ bold fonts
+![Dark theme - soft contrast](https://github.com/wheredoesyourmindgo/gruvbox-concoctis/raw/master/images/darkSoft.png)
 
-![Light theme - medium contrast - original palette](https://github.com/wheredoesyourmindgo/gruvbox-concoctis/raw/master/images/lightOrig.png)
+<div style="padding-top:16px;padding-bottom:16px;"></div>
 
+#### hard contrast
+
+![Dark theme - hard contrast](https://github.com/wheredoesyourmindgo/gruvbox-concoctis/raw/master/images/darkHard.png)
+
+<div style="padding-top:16px;padding-bottom:16px;"></div>
+
+### Light theme
+
+#### medium contrast
+
+![Light theme - medium contrast](https://github.com/wheredoesyourmindgo/gruvbox-concoctis/raw/master/images/lightMedium.png)
+
+<div style="padding-top:16px;padding-bottom:16px;"></div>
+
+#### soft contrast
+
+![Light theme - soft contrast](https://github.com/wheredoesyourmindgo/gruvbox-concoctis/raw/master/images/lightSoft.png)
+
+<div style="padding-top:16px;padding-bottom:16px;"></div>
+
+#### hard contrast
+
+![Light theme - hard contrast](https://github.com/wheredoesyourmindgo/gruvbox-concoctis/raw/master/images/lightHard.png)
+
+<div style="padding-top:16px;padding-bottom:16px;"></div>
 </div>
 
 ### Configuration Settings
@@ -163,9 +180,7 @@ You may find yourself programming at different times in a given day in various l
 
 ### Credits
 
-The font used in screenshots 1 & 2 is [Cascadia Code](https://github.com/microsoft/cascadia-code).
-
-The font used in screenshots 3 & 4 is [PragmataPro](https://www.fsd.it/shop/fonts/pragmatapro/).
+The font used in screenshots is [Sudo](https://github.com/jenskutilek/sudo-font).
 
 The font used in this README's title (logo) is [Dona](https://www.harbortype.com/fonts/dona/) from Harbor Type.
 
