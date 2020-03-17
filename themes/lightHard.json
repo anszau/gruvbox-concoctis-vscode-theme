@@ -442,7 +442,6 @@
             "source.swift",
             "source.julia",
             "source.shell",
-            "variable.other.normal punctuation.definition.variable.shell",
             "source.reason variable.language",
             "source.reason variable.language string.other.link",
             "source.elm meta.value",
@@ -555,7 +554,8 @@
             "text.xml entity.other.attribute-name",
             "source.cs entity.other.attribute-name",
             "constant.character.format.placeholder",
-            "constant.other.placeholder"
+            "constant.other.placeholder",
+            "variable.other.normal"
          ],
          "settings": {
             "foreground": "#b47109"
@@ -699,7 +699,8 @@
             "support.variable.class.function",
             "keyword.control.cucumber.table",
             "punctuation.decorator",
-            "source.tf support.class"
+            "source.tf support.class",
+            "support.function.builtin.shell"
          ],
          "settings": {
             "foreground": "#4c7a5d"
