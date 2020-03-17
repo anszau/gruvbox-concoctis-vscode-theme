@@ -183,7 +183,7 @@ You may find yourself programming at different times in a given day in various l
 
 ### Credits
 
-The font used in screenshots is [Sudo](https://github.com/jenskutilek/sudo-font).
+The font used in screenshots is [Sudo](https://github.com/jenskutilek/sudo-font) by Jens Kutilek.
 
 The font used in this README's title (logo) is [Dona](https://www.harbortype.com/fonts/dona/) from Harbor Type.
 
