@@ -12,7 +12,7 @@
 
 All screenshots are shown using the 'mix' palette, and with both the Bold fonts option enabled and the Italic fonts option enabled. See [Configuration Settings](#config) below for more information.
 
-Additionally, all screenshots are show with VSCode's Semantic Highlighting feature turned off via `"editor.semanticHighlighting.enabled": false`.
+Additionally, all screenshots are shown with VSCode's Semantic Highlighting feature turned off via `"editor.semanticHighlighting.enabled": false`.
 
 <div align="center" style="padding-top:16px;padding-bottom:32px;">
 
