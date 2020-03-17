@@ -8,51 +8,49 @@
 
 > This VSCode color scheme is a fork of the comprehensive [Noctis](https://github.com/liviuschera/noctis) theme that uses the [_same_](https://raw.githubusercontent.com/wheredoesyourmindgo/gruvbox-concoctis/master/extra/same.gif) color palette from the comprehensible [Gruvbox Material](https://github.com/gruvbox-material/vscode) theme 👍.
 
-<div style="padding-top:8px;padding-bottom:8px;">
-
-### Screenshots
+<div style="padding-top:16px;padding-bottom:16px;">
 
 All screenshots are shown using the 'mix' palette, and with both the Bold fonts option enabled and the Italic fonts option enabled. See [Configuration Settings](#config) below for more information.
 
 Additionally, all screenshots are show with VSCode's Semantic Highlighting feature turned off via `"editor.semanticHighlighting.enabled": false`.
 
-<div align="center" style="padding-top:8px;padding-bottom:16px;">
+<div align="center" style="padding-top:16px;padding-bottom:32px;">
 
-#### Dark theme
+### Dark theme
 
-##### medium contrast
+#### medium contrast
 
 ![Dark theme - medium contrast](https://github.com/wheredoesyourmindgo/gruvbox-concoctis/raw/master/images/darkMedium.png)
 
 <div style="padding-top:16px;padding-bottom:16px;"></div>
 
-##### soft contrast
+#### soft contrast
 
 ![Dark theme - soft contrast](https://github.com/wheredoesyourmindgo/gruvbox-concoctis/raw/master/images/darkSoft.png)
 
 <div style="padding-top:16px;padding-bottom:16px;"></div>
 
-##### hard contrast
+#### hard contrast
 
 ![Dark theme - hard contrast](https://github.com/wheredoesyourmindgo/gruvbox-concoctis/raw/master/images/darkHard.png)
 
 <div style="padding-top:16px;padding-bottom:16px;"></div>
 
-#### Light theme
+### Light theme
 
-##### medium contrast
+#### medium contrast
 
 ![Light theme - medium contrast](https://github.com/wheredoesyourmindgo/gruvbox-concoctis/raw/master/images/lightMedium.png)
 
 <div style="padding-top:16px;padding-bottom:16px;"></div>
 
-##### soft contrast
+#### soft contrast
 
 ![Light theme - soft contrast](https://github.com/wheredoesyourmindgo/gruvbox-concoctis/raw/master/images/lightSoft.png)
 
 <div style="padding-top:16px;padding-bottom:16px;"></div>
 
-##### hard contrast
+#### hard contrast
 
 ![Light theme - hard contrast](https://github.com/wheredoesyourmindgo/gruvbox-concoctis/raw/master/images/lightHard.png)
 
