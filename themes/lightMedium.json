@@ -555,7 +555,8 @@
             "source.cs entity.other.attribute-name",
             "constant.character.format.placeholder",
             "constant.other.placeholder",
-            "variable.other.normal"
+            "variable.other.normal",
+            "variable.other.normal punctuation.definition.variable.shell"
          ],
          "settings": {
             "foreground": "#b47109"

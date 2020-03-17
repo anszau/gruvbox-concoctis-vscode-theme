@@ -274,7 +274,8 @@ export default [
       "source.cs entity.other.attribute-name",
       "constant.character.format.placeholder",
       "constant.other.placeholder",
-      "variable.other.normal" // Added.
+      "variable.other.normal", // Added.
+      "variable.other.normal punctuation.definition.variable.shell" // Added.
     ],
     settings: {
       foreground: "#d5971a"
