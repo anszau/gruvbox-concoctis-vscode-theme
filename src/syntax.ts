@@ -276,7 +276,8 @@ export default [
       "constant.other.placeholder",
       "variable.other.normal", // Added.
       "variable.other.normal punctuation.definition.variable.shell", // Added.
-      "variable.other.makefile" // Added.
+      "variable.other.makefile", // Added.
+      "variable.other.bracket.shell" // Added.
     ],
     settings: {
       foreground: "#d5971a"
