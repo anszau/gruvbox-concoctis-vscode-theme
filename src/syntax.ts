@@ -45,7 +45,7 @@ export default [
       "storage.modifier.array.bracket",
       "source.css entity.other",
       "meta.attribute-selector punctuation.definition.entity",
-      "string.template meta.object-literal.key" // ADDED
+      "string.template meta.object-literal.key" // Added.
     ],
     settings: {
       foreground: "#b2cacd"
@@ -160,7 +160,7 @@ export default [
       "source.swift",
       "source.julia",
       "source.shell",
-      "variable.other.normal punctuation.definition.variable.shell",
+      // "variable.other.normal punctuation.definition.variable.shell", // Removed.
       "source.reason variable.language",
       "source.reason variable.language string.other.link",
       "source.elm meta.value",
@@ -273,7 +273,8 @@ export default [
       "text.xml entity.other.attribute-name",
       "source.cs entity.other.attribute-name",
       "constant.character.format.placeholder",
-      "constant.other.placeholder"
+      "constant.other.placeholder",
+      "variable.other.normal" // Added.
     ],
     settings: {
       foreground: "#d5971a"
@@ -350,7 +351,7 @@ export default [
       "source.scala punctuation.definition.character",
       "constant.character.literal.scala",
       "source.tf entity.name",
-      "source.env" // ADDED
+      "source.env" // Added.
     ],
     settings: {
       foreground: "#49e9a6"
@@ -417,7 +418,8 @@ export default [
       "support.variable.class.function",
       "keyword.control.cucumber.table",
       "punctuation.decorator",
-      "source.tf support.class"
+      "source.tf support.class",
+      "support.function.builtin.shell" // Added.
     ],
     settings: {
       foreground: "#16a3b6"
