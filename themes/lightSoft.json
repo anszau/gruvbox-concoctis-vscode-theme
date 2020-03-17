@@ -556,7 +556,8 @@
             "constant.character.format.placeholder",
             "constant.other.placeholder",
             "variable.other.normal",
-            "variable.other.normal punctuation.definition.variable.shell"
+            "variable.other.normal punctuation.definition.variable.shell",
+            "variable.other.makefile"
          ],
          "settings": {
             "foreground": "#b47109"
