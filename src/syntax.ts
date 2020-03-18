@@ -277,7 +277,8 @@ export default [
       "variable.other.normal", // Added.
       "variable.other.normal punctuation.definition.variable.shell", // Added.
       "variable.other.makefile", // Added.
-      "variable.other.bracket.shell" // Added.
+      "variable.other.bracket.shell", // Added.
+      "meta.tag.other entity.other.attribute-name" // Added.
     ],
     settings: {
       foreground: "#d5971a"
@@ -422,7 +423,8 @@ export default [
       "keyword.control.cucumber.table",
       "punctuation.decorator",
       "source.tf support.class",
-      "support.function.builtin.shell" // Added.
+      "support.function.builtin.shell", // Added.
+      "support.function.powershell" // Added.
     ],
     settings: {
       foreground: "#16a3b6"

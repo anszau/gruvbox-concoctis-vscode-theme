@@ -558,7 +558,8 @@
             "variable.other.normal",
             "variable.other.normal punctuation.definition.variable.shell",
             "variable.other.makefile",
-            "variable.other.bracket.shell"
+            "variable.other.bracket.shell",
+            "meta.tag.other entity.other.attribute-name"
          ],
          "settings": {
             "foreground": "#b47109"
@@ -703,7 +704,8 @@
             "keyword.control.cucumber.table",
             "punctuation.decorator",
             "source.tf support.class",
-            "support.function.builtin.shell"
+            "support.function.builtin.shell",
+            "support.function.powershell"
          ],
          "settings": {
             "foreground": "#4c7a5d"
