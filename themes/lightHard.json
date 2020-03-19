@@ -555,10 +555,9 @@
             "source.cs entity.other.attribute-name",
             "constant.character.format.placeholder",
             "constant.other.placeholder",
-            "variable.other.normal",
             "variable.other.normal punctuation.definition.variable.shell",
-            "variable.other.makefile",
             "variable.other.bracket.shell",
+            "variable.other.makefile",
             "meta.tag.other entity.other.attribute-name"
          ],
          "settings": {
@@ -703,9 +702,7 @@
             "support.variable.class.function",
             "keyword.control.cucumber.table",
             "punctuation.decorator",
-            "source.tf support.class",
-            "support.function.builtin.shell",
-            "support.function.powershell"
+            "source.tf support.class"
          ],
          "settings": {
             "foreground": "#4c7a5d"

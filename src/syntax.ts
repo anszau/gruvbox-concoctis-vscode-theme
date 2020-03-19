@@ -274,10 +274,9 @@ export default [
       "source.cs entity.other.attribute-name",
       "constant.character.format.placeholder",
       "constant.other.placeholder",
-      "variable.other.normal", // Added.
       "variable.other.normal punctuation.definition.variable.shell", // Added.
-      "variable.other.makefile", // Added.
       "variable.other.bracket.shell", // Added.
+      "variable.other.makefile", // Added.
       "meta.tag.other entity.other.attribute-name" // Added.
     ],
     settings: {
@@ -422,9 +421,7 @@ export default [
       "support.variable.class.function",
       "keyword.control.cucumber.table",
       "punctuation.decorator",
-      "source.tf support.class",
-      "support.function.builtin.shell", // Added.
-      "support.function.powershell" // Added.
+      "source.tf support.class"
     ],
     settings: {
       foreground: "#16a3b6"
