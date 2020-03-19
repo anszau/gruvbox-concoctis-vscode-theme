@@ -29,7 +29,5 @@
       class Someone extends Person { }
       console.log(John.about().length, BROWSER);
 
-
-
       let a = () => { };
       console.log(Someone, a);
