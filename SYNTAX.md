@@ -27,7 +27,8 @@ const url = `${baseUrl}${stringify(
   "name": "CONSTANT",
   "scope": [
     "variable.other.normal punctuation.definition.variable.shell",
-    "variable.other.bracket.shell"
+    "variable.other.bracket.shell",
+    "variable.other.normal.shell"
   ]
 }
 ```

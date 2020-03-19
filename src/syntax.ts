@@ -274,6 +274,7 @@ export default [
       "source.cs entity.other.attribute-name",
       "constant.character.format.placeholder",
       "constant.other.placeholder",
+      "variable.other.normal.shell", // Added.
       "variable.other.normal punctuation.definition.variable.shell", // Added.
       "variable.other.bracket.shell", // Added.
       "variable.other.makefile", // Added.

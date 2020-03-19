@@ -555,6 +555,7 @@
             "source.cs entity.other.attribute-name",
             "constant.character.format.placeholder",
             "constant.other.placeholder",
+            "variable.other.normal.shell",
             "variable.other.normal punctuation.definition.variable.shell",
             "variable.other.bracket.shell",
             "variable.other.makefile",
