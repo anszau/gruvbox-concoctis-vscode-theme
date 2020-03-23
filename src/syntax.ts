@@ -622,7 +622,8 @@ export default [
       "source.tf meta.keyword.number",
       "source.scala entity.name.class",
       "meta.import keyword.control",
-      "keyword.control.export"
+      "keyword.control.export",
+      "meta.tag.attributes entity.other.attribute-name" // Added.
     ],
     settings: {
       fontStyle: ""
