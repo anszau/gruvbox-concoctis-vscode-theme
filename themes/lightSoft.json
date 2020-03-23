@@ -559,8 +559,8 @@
             "variable.other.special.shell",
             "variable.other.positional.shell",
             "variable.other.normal.shell punctuation.definition.variable.shell",
-            "variable.special.normal.shell punctuation.definition.variable.shell",
-            "variable.positional.normal.shell punctuation.definition.variable.shell",
+            "variable.other.special.shell punctuation.definition.variable.shell",
+            "variable.other.positional.shell punctuation.definition.variable.shell",
             "variable.other.bracket.shell",
             "variable.other.makefile",
             "meta.tag.other entity.other.attribute-name"
