@@ -556,7 +556,11 @@
             "constant.character.format.placeholder",
             "constant.other.placeholder",
             "variable.other.normal.shell",
+            "variable.other.special.shell",
+            "variable.other.positional.shell",
             "variable.other.normal punctuation.definition.variable.shell",
+            "variable.special.normal punctuation.definition.variable.shell",
+            "variable.positional.normal punctuation.definition.variable.shell",
             "variable.other.bracket.shell",
             "variable.other.makefile",
             "meta.tag.other entity.other.attribute-name"

@@ -275,7 +275,11 @@ export default [
       "constant.character.format.placeholder",
       "constant.other.placeholder",
       "variable.other.normal.shell", // Added.
+      "variable.other.special.shell", // Added.
+      "variable.other.positional.shell", // Added.
       "variable.other.normal punctuation.definition.variable.shell", // Added.
+      "variable.special.normal punctuation.definition.variable.shell", // Added.
+      "variable.positional.normal punctuation.definition.variable.shell", // Added.
       "variable.other.bracket.shell", // Added.
       "variable.other.makefile", // Added.
       "meta.tag.other entity.other.attribute-name" // Added.
