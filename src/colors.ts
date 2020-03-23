@@ -5,7 +5,7 @@ function producePalette(palette) {
     comment: palette.grey1,
     text: palette.fg,
     keyword: palette.purple,
-    variable: palette.fg0,
+    variable: palette.fg,
     annotation: palette.fg1,
     constant: palette.yellow,
     tag: palette.orange,

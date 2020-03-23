@@ -13,7 +13,7 @@ export default {
   grey0: "#7c6f64",
   grey1: "#928374",
   grey2: "#a89984",
-  fg0: "#ebdbb2",
+  fg0: "#fbf1c7",
   fg: "#ebdbb2",
   fg1: "#c9b99a",
   red: "#fb4934",
