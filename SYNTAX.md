@@ -121,3 +121,23 @@ Use Misc color for CSS properties.
   background-color: rgb(255, 255, 243);
 }
 ```
+
+### CSS colors
+
+```json
+{
+  "name": "KEYWORD",
+  "scope": [
+    "entity.other.attribute-name.id",
+    "entity.other.attribute-name.id punctuation.definition.entity"
+  ]
+}
+```
+
+Use Keyword color for CSS colors to match 'constant.other.color'.
+
+```css
+#someID {
+  background-color: #ffffff;
+}
+```

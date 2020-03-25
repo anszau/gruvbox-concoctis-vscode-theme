@@ -108,7 +108,8 @@ export default [
       "source.css entity.name.tag.custom",
       "sharing.modifier",
       "keyword.control.class.ruby",
-      "keyword.control.def.ruby"
+      "keyword.control.def.ruby",
+      "constant.other.color.rgb-value.hex punctuation.definition.constant" // Added.
     ],
     settings: {
       foreground: "#df769b"
