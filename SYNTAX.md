@@ -125,13 +125,17 @@ Use Misc color for CSS properties.
 ### CSS Attribute selectors
 
 ```json
+({
+  "name": "TEXT",
+  "scope": ["meta.attribute-selector entity.other.attribute-name"]
+},
 {
   "name": "ITALIC",
   "scope": ["meta.attribute-selector entity.other.attribute-name"]
-}
+})
 ```
 
-Use italic font for Attribute selectors when italic font is enabled.
+Use italic font for Attribute selectors when italic font is enabled and use Foreground palette for text.
 
 ```css
 main[type="foobar"] {
