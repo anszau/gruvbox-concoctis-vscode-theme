@@ -47,7 +47,8 @@ export default [
       "meta.attribute-selector punctuation.definition.entity",
       "string.template meta.object-literal.key", // Added.
       "support.type.property-name", // Added.
-      "support.type.vendored" // Added.
+      "support.type.vendored", // Added.
+      "meta.attribute-selector entity.other.attribute-name" // Added.
     ],
     settings: {
       foreground: "#b2cacd"

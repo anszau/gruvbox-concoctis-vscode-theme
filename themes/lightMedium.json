@@ -329,7 +329,8 @@
             "meta.attribute-selector punctuation.definition.entity",
             "string.template meta.object-literal.key",
             "support.type.property-name",
-            "support.type.vendored"
+            "support.type.vendored",
+            "meta.attribute-selector entity.other.attribute-name"
          ],
          "settings": {
             "foreground": "#654735"
