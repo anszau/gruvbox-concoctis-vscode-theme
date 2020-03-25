@@ -632,7 +632,8 @@ export default [
       "source.scala entity.name.class",
       "meta.import keyword.control",
       "keyword.control.export",
-      "meta.tag.attributes entity.other.attribute-name" // Added.
+      "meta.tag.attributes entity.other.attribute-name", // Added.
+      "meta.attribute-selector entity.other.attribute-name" // Added.
     ],
     settings: {
       fontStyle: ""

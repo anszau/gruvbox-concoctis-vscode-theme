@@ -912,7 +912,8 @@
             "source.scala entity.name.class",
             "meta.import keyword.control",
             "keyword.control.export",
-            "meta.tag.attributes entity.other.attribute-name"
+            "meta.tag.attributes entity.other.attribute-name",
+            "meta.attribute-selector entity.other.attribute-name"
          ],
          "settings": {
             "fontStyle": "italic"

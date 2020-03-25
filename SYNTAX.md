@@ -122,6 +122,23 @@ Use Misc color for CSS properties.
 }
 ```
 
+### CSS Attribute selectors
+
+```json
+{
+  "name": "ITALIC",
+  "scope": ["meta.attribute-selector entity.other.attribute-name"]
+}
+```
+
+Use italic font for Attribute selectors when italic font is enabled.
+
+```css
+main[type="foobar"] {
+  margin-top: 24px;
+}
+```
+
 ### CSS colors
 
 ```json
