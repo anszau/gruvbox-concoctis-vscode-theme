@@ -45,7 +45,9 @@ export default [
       "storage.modifier.array.bracket",
       "source.css entity.other",
       "meta.attribute-selector punctuation.definition.entity",
-      "string.template meta.object-literal.key" // Added.
+      "string.template meta.object-literal.key", // Added.
+      "support.type.property-name", // Added.
+      "support.type.vendored" // Added.
     ],
     settings: {
       foreground: "#b2cacd"
@@ -409,11 +411,11 @@ export default [
     name: "FUNCTION",
     scope: [
       "variable.function",
-      "support.type.property-name",
+      // "support.type.property-name", Removed.
       "entity.name.function",
       "string.other.link",
       "markup.link",
-      "support.type.vendored",
+      // "support.type.vendored", Removed.
       "support.other.variable",
       "meta.function-call.generic.python",
       "meta.method-call.groovy meta.method.groovy",

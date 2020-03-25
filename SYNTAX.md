@@ -84,3 +84,20 @@ html(lang="en")
 Use green color for env v.
 
     NODE_ENV=prod
+
+### CSS Properties
+
+```json
+{
+  "name": "TEXT",
+  "scope": ["support.type.property-name", "support.type.vendored"]
+}
+```
+
+Use foreground color for CSS properties.
+
+```css
+.killer-class {
+  background-color: rgba(244, 255, 245, 0.5);
+}
+```

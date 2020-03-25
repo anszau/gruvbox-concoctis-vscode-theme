@@ -327,7 +327,9 @@
             "storage.modifier.array.bracket",
             "source.css entity.other",
             "meta.attribute-selector punctuation.definition.entity",
-            "string.template meta.object-literal.key"
+            "string.template meta.object-literal.key",
+            "support.type.property-name",
+            "support.type.vendored"
          ],
          "settings": {
             "foreground": "#d4be98"
@@ -690,11 +692,9 @@
          "name": "FUNCTION",
          "scope": [
             "variable.function",
-            "support.type.property-name",
             "entity.name.function",
             "string.other.link",
             "markup.link",
-            "support.type.vendored",
             "support.other.variable",
             "meta.function-call.generic.python",
             "meta.method-call.groovy meta.method.groovy",
