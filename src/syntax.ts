@@ -184,8 +184,8 @@ export default [
       "support.variable.property",
       "constant.other.symbol.hashkey.ruby",
       "constant.other.symbol.hashkey.ruby punctuation.definition.constant.ruby",
-      "entity.other.attribute-name.id",
-      "entity.other.attribute-name.id punctuation.definition.entity",
+      // "entity.other.attribute-name.id", // Removed.
+      // "entity.other.attribute-name.id punctuation.definition.entity", // Removed.
       "entity.name.type.annotation.kotlin",
       "support.type.primitive",
       "meta.type.parameters entity.name.type",
@@ -521,7 +521,9 @@ export default [
       "support.variable.class.group",
       "entity.name.type.class",
       "source.tf meta.keyword.list",
-      "source.tf meta.keyword.map"
+      "source.tf meta.keyword.map",
+      "entity.other.attribute-name.id", // Added.
+      "entity.other.attribute-name.id punctuation.definition.entity" // Added.
     ],
     settings: {
       foreground: "#49ace9"

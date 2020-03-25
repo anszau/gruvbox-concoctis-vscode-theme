@@ -101,3 +101,23 @@ Use foreground color for CSS properties.
   background-color: rgba(244, 255, 245, 0.5);
 }
 ```
+
+### CSS ID selectors
+
+```json
+{
+  "name": "MISC",
+  "scope": [
+    "entity.other.attribute-name.id",
+    "entity.other.attribute-name.id punctuation.definition.entity"
+  ]
+}
+```
+
+Use Misc color for CSS properties.
+
+```css
+#someID {
+  background-color: rgb(255, 255, 243);
+}
+```

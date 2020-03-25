@@ -465,8 +465,6 @@
             "support.variable.property",
             "constant.other.symbol.hashkey.ruby",
             "constant.other.symbol.hashkey.ruby punctuation.definition.constant.ruby",
-            "entity.other.attribute-name.id",
-            "entity.other.attribute-name.id punctuation.definition.entity",
             "entity.name.type.annotation.kotlin",
             "support.type.primitive",
             "meta.type.parameters entity.name.type",
@@ -800,7 +798,9 @@
             "support.variable.class.group",
             "entity.name.type.class",
             "source.tf meta.keyword.list",
-            "source.tf meta.keyword.map"
+            "source.tf meta.keyword.map",
+            "entity.other.attribute-name.id",
+            "entity.other.attribute-name.id punctuation.definition.entity"
          ],
          "settings": {
             "foreground": "#7daea3"
