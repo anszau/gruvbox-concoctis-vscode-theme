@@ -634,8 +634,8 @@ export default [
       "meta.import keyword.control",
       "keyword.control.export",
       "meta.tag.attributes entity.other.attribute-name", // Added.
-      "meta.attribute-selector entity.other.attribute-name", // Added.
-      "text.html entity.other.attribute-name" // Added.
+      "text.html entity.other.attribute-name", // Added.
+      "meta.attribute-selector entity.other.attribute-name" // Added.
     ],
     settings: {
       fontStyle: ""

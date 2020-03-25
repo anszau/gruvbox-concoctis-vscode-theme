@@ -162,3 +162,19 @@ Use Keyword color for CSS colors to match 'constant.other.color'.
   background-color: #ffffff;
 }
 ```
+
+### HTML/JSX/TSX attributes
+
+```json
+({
+  "name": "ITALIC",
+  "scope": ["meta.tag.attributes entity.other.attribute-name",
+      "text.html entity.other.attribute-name"]
+}
+```
+
+Use italic font for HTML JSX/TSX attributes.
+
+```html
+<div class="foo">bar</div>
+```
