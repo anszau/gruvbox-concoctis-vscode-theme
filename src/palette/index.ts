@@ -31,7 +31,8 @@ export function getPalette() {
       darkHardPalette: { ...neutralPalette, ...darkHardOrigPalette },
       lightMediumPalette: { ...neutralPalette, ...lightMediumOrigPalette },
       lightSoftPalette: { ...neutralPalette, ...lightSoftOrigPalette },
-      lightHardPalette: { ...neutralPalette, ...lightHardOrigPalette }
+      lightHardPalette: { ...neutralPalette, ...lightHardOrigPalette },
+      selectionColor: config.selectionColor
     };
   } else if (config.usePalette === "mix") {
     return {
@@ -40,7 +41,8 @@ export function getPalette() {
       darkHardPalette: { ...darkHardMixPalette },
       lightMediumPalette: { ...lightMediumMixPalette },
       lightSoftPalette: { ...lightSoftMixPalette },
-      lightHardPalette: { ...lightHardMixPalette }
+      lightHardPalette: { ...lightHardMixPalette },
+      selectionColor: config.selectionColor
     };
   } else {
     return {
@@ -49,7 +51,8 @@ export function getPalette() {
       darkHardPalette: darkHardMatPalette,
       lightMediumPalette: lightMediumMatPalette,
       lightSoftPalette: lightSoftMatPalette,
-      lightHardPalette: lightHardMatPalette
+      lightHardPalette: lightHardMatPalette,
+      selectionColor: config.selectionColor
     };
   }
 }

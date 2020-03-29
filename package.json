@@ -96,6 +96,21 @@
             "mix",
             "original"
           ]
+        },
+        "gruvboxConcoctis.selectionColor": {
+          "type": "string",
+          "default": "grey",
+          "description": "The selection color used in editor.",
+          "enum": [
+            "grey",
+            "aqua",
+            "blue",
+            "green",
+            "orange",
+            "purple",
+            "red",
+            "yellow"
+          ]
         }
       }
     }

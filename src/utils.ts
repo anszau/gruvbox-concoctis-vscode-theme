@@ -13,7 +13,8 @@ export default class Utils {
     return {
       usePalette: workspaceConfiguration.get("usePalette"),
       useBoldFont: workspaceConfiguration.get("useBoldFont"),
-      useItalicFont: workspaceConfiguration.get("useItalicFont")
+      useItalicFont: workspaceConfiguration.get("useItalicFont"),
+      selectionColor: workspaceConfiguration.get("selectionColor")
     };
   }
   private async writeFile(path: string, data: unknown) {
@@ -49,7 +50,8 @@ export default class Utils {
     return (
       configuration.usePalette !== "material" &&
       configuration.useBoldFont !== true &&
-      configuration.useItalicFont === true
+      configuration.useItalicFont === true &&
+      configuration.selectionColor === "grey"
     );
   }
 }

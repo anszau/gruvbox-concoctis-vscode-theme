@@ -2,7 +2,7 @@
    "name": "Concoctis - Light : Hard",
    "type": "light",
    "colors": {
-      "selection.background": "#ebdbb2f0",
+      "selection.background": "#7c6f6433",
       "descriptionForeground": "#6f4f3c",
       "errorForeground": "#c14a4aFF",
       "widget.shadow": "#00000044",
@@ -117,7 +117,7 @@
       "editorGutter.addedBackground": "#a9b665a0",
       "editorGutter.deletedBackground": "#c14a4aFF",
       "editorGutter.modifiedBackground": "#7daea3a0",
-      "editor.selectionBackground": "#ebdbb2f0",
+      "editor.selectionBackground": "#7c6f6433",
       "editor.selectionHighlightBackground": "#d5c4a178",
       "editor.inactiveSelectionBackground": "#65473555",
       "editor.wordHighlightStrongBackground": "#89b48230",
@@ -914,8 +914,8 @@
             "meta.import keyword.control",
             "keyword.control.export",
             "meta.tag.attributes entity.other.attribute-name",
-            "meta.attribute-selector entity.other.attribute-name",
-            "text.html entity.other.attribute-name"
+            "text.html entity.other.attribute-name",
+            "meta.attribute-selector entity.other.attribute-name"
          ],
          "settings": {
             "fontStyle": "italic"
