@@ -51,7 +51,7 @@ export default class Utils {
       configuration.usePalette !== "material" &&
       configuration.useBoldFont !== true &&
       configuration.useItalicFont === true &&
-      configuration.selectionColor === "grey"
+      configuration.selectionColor === "neutral"
     );
   }
 }

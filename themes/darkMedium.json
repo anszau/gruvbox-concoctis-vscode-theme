@@ -2,7 +2,7 @@
    "name": "Concoctis - Dark : Medium",
    "type": "dark",
    "colors": {
-      "selection.background": "#a8998459",
+      "selection.background": "#7c6f6459",
       "descriptionForeground": "#c5b18d",
       "errorForeground": "#ea6962FF",
       "widget.shadow": "#00000044",
@@ -117,7 +117,7 @@
       "editorGutter.addedBackground": "#8f9a52a0",
       "editorGutter.deletedBackground": "#ea6962FF",
       "editorGutter.modifiedBackground": "#68948aa0",
-      "editor.selectionBackground": "#a8998459",
+      "editor.selectionBackground": "#7c6f6459",
       "editor.selectionHighlightBackground": "#5a524c78",
       "editor.inactiveSelectionBackground": "#d4be9855",
       "editor.wordHighlightStrongBackground": "#72966c30",

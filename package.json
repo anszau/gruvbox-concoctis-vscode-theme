@@ -102,10 +102,11 @@
           "default": "grey",
           "description": "The selection color used in editor.",
           "enum": [
-            "grey",
+            "neutral",
             "aqua",
             "blue",
             "green",
+            "grey",
             "orange",
             "purple",
             "red",

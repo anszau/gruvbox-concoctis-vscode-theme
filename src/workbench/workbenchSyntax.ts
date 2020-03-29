@@ -28,8 +28,11 @@ export default function(palette, name, type, tokenColors) {
     case "blue":
       selectionBgBase = palette.darkBlue;
       break;
-    default:
+    case "grey":
       selectionBgBase = palette.grey2;
+      break;
+    default:
+      selectionBgBase = palette.bg9;
   }
   const selectionBg = `${selectionBgBase}${type === "dark" ? "59" : "33"}`; // 35% and 20% respectively
   return {
