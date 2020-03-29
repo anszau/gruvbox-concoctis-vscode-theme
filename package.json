@@ -99,7 +99,7 @@
         },
         "gruvboxConcoctis.selectionColor": {
           "type": "string",
-          "default": "grey",
+          "default": "neutral",
           "description": "The selection color used in editor.",
           "enum": [
             "neutral",

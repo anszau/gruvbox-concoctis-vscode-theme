@@ -5,7 +5,6 @@ export default function(palette, name, type, tokenColors) {
   // const selectionBg = `${palette.darkRed}40`;
   let selectionBgBase;
   const { selectionColor } = palette;
-  console.log("selection color: ", selectionColor);
   switch (selectionColor) {
     case "green":
       selectionBgBase = palette.darkGreen;
