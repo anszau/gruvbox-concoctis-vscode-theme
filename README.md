@@ -6,7 +6,7 @@
    <img width="400" src="https://github.com/wheredoesyourmindgo/gruvbox-concoctis/raw/master/images/titleLogo.png" />
 </p>
 
-> This VSCode color scheme is a fork of the comprehensive [Noctis](https://github.com/liviuschera/noctis) theme that uses the [_same_](https://raw.githubusercontent.com/wheredoesyourmindgo/gruvbox-concoctis/master/extra/same.gif) color palette from the comprehensible [Gruvbox Material](https://github.com/gruvbox-material/vscode) theme 👍. When compared Gruvbox and Gruvbox derivatives, this theme maps scopes to the Gruvbox palette dissimilarly to provide alternate syntax highlighting.
+> This VSCode color scheme is a fork of the comprehensive [Noctis](https://github.com/liviuschera/noctis) theme that uses the [_same_](https://raw.githubusercontent.com/wheredoesyourmindgo/gruvbox-concoctis/master/extra/same.gif) color palette from the comprehensible [Gruvbox Material](https://github.com/gruvbox-material/vscode) theme 👍. When compared to Gruvbox and Gruvbox derivatives, this theme maps scopes to the Gruvbox palette dissimilarly to provide alternate syntax highlighting.
 
 <div style="padding-top:16px;padding-bottom:16px;">
 
