@@ -98,7 +98,7 @@ Default: 'neutral'
 
 Available values: "neutral", "aqua", "blue", "green", "grey", "orange", "purple", "red", "yellow"
 
-_Due to the use opacity the difference between "neutral" and "grey" is subtle, while the latter provies a bit more contrast. Consider the latter option while using a Dark variant if more contrast is desired._
+_Due to the use opacity the difference between "neutral" and "grey" is subtle, while the latter provides a bit more contrast. Consider the latter option while using a Dark variant if more contrast is desired._
 
 ```json
 {
