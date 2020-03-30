@@ -92,6 +92,20 @@ Default: true
 }
 ```
 
+#### Selection Background Color
+
+Default: 'neutral'
+
+Available values: "neutral", "aqua", "blue", "green", "grey", "orange", "purple", "red", "yellow"
+
+_Due to the use opacity the difference between "neutral" and "grey" is subtle, while the latter provies a bit more contrast. Consider the latter option while using a Dark variant if more contrast is desired._
+
+```json
+{
+  "gruvboxConcoctis.selectionColor": "orange"
+}
+```
+
 ### Accessibility Tips
 
 On macOS? Consider [Shifty](https://github.com/thompsonate/Shifty) or something like it. We need 7-9 hours of sleep a night and programming before bed is not helping us.
