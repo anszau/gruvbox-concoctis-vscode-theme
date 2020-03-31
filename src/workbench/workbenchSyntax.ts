@@ -158,9 +158,9 @@ export default function(palette, name, type, tokenColors) {
       "textBlockQuote.background": palette.bg1,
       "textBlockQuote.border": `${palette.grey2}`,
       "textCodeBlock.background": palette.bg1,
-      "textLink.activeForeground": palette.yellow,
-      "textLink.foreground": palette.yellow,
-      "textPreformat.foreground": palette.bg1,
+      "textLink.activeForeground": palette.blue,
+      "textLink.foreground": palette.blue,
+      "textPreformat.foreground": palette.yellow,
       "textSeparator.foreground": palette.bg1,
       // ---------------------------
       // Welcome Page

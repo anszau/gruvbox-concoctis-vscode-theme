@@ -9,4 +9,5 @@
 - Added new scope &rarr; `minimap.background` introduced in VS Code 1.43.0
 - Use Keyword color for Markdown list dash.
 - Use foreground color for inline punctuation and misc color for inline link descriptions with Markdown scopes
+- Updated workbench Text Colors.
 - Changelog created
