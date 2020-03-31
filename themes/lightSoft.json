@@ -278,7 +278,8 @@
       "minimap.warningHighlight": "#d8a65780",
       "minimapGutter.addedBackground": "#a9b665a0",
       "minimapGutter.modifiedBackground": "#7daea3a0",
-      "minimapGutter.deletedBackground": "#ea6962a0"
+      "minimapGutter.deletedBackground": "#ea6962a0",
+      "minimap.backround": "#f2e5bc99"
    },
    "tokenColors": [
       {
@@ -292,6 +293,18 @@
          ],
          "settings": {
             "foreground": "#928374"
+         }
+      },
+      {
+         "name": "COMMENT_EMPHASIS",
+         "scope": [
+            "comment.block.documentation storage.type.class",
+            "comment.block.documentation punctuation.definition.block.tag",
+            "comment.block.documentation punctuation.definition.inline.tag",
+            "comment.block.documentation variable.other"
+         ],
+         "settings": {
+            "foreground": ""
          }
       },
       {
@@ -330,7 +343,8 @@
             "string.template meta.object-literal.key",
             "support.type.property-name",
             "support.type.vendored",
-            "meta.attribute-selector entity.other.attribute-name"
+            "meta.attribute-selector entity.other.attribute-name",
+            "meta.image.inline punctuation.definition.string"
          ],
          "settings": {
             "foreground": "#654735"
@@ -392,7 +406,8 @@
             "sharing.modifier",
             "keyword.control.class.ruby",
             "keyword.control.def.ruby",
-            "constant.other.color.rgb-value.hex punctuation.definition.constant"
+            "constant.other.color.rgb-value.hex punctuation.definition.constant",
+            "punctuation.definition.list.begin.markdown"
          ],
          "settings": {
             "foreground": "#945e80"
@@ -598,8 +613,6 @@
             "meta.class.identifier storage.modifier",
             "source.scala keyword.declaration",
             "storage.type",
-            "comment.block.documentation punctuation.definition.block.tag",
-            "comment.block.documentation punctuation.definition.inline.tag",
             "entity.tag.apacheconf",
             "keyword.other.julia",
             "source.julia storage.modifier",
@@ -693,7 +706,6 @@
          "scope": [
             "variable.function",
             "entity.name.function",
-            "string.other.link",
             "markup.link",
             "support.other.variable",
             "meta.function-call.generic.python",
@@ -802,7 +814,8 @@
             "source.tf meta.keyword.list",
             "source.tf meta.keyword.map",
             "entity.other.attribute-name.id",
-            "entity.other.attribute-name.id punctuation.definition.entity"
+            "entity.other.attribute-name.id punctuation.definition.entity",
+            "string.other.link"
          ],
          "settings": {
             "foreground": "#45707a"
@@ -995,7 +1008,8 @@
             "meta.attribute.id entity.other.attribute-name",
             "keyword.other.fn.rust",
             "source.ocaml punctuation.definition.tag emphasis",
-            "source.tf entity.name"
+            "source.tf entity.name",
+            "comment.block.documentation variable.other"
          ],
          "settings": {
             "fontStyle": "italic"

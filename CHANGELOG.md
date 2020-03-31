@@ -2,6 +2,11 @@
 
 ## **10.30.21**
 
-- Added new scope &rarr; `minimap.background` introduced in VS Code 1.43.0.
-- Use foreground color for inline punctuation and misc color
-  for inline link descriptions with Markdown scopes.
+- Use emphasized comment color for certain scopes relating to JSDoc/TSDoc
+- Use bold font with variables within the comment blocks
+- New screenshots added to [README.md](https://github.com/wheredoesyourmindgo/gruvbox-concoctis/blob/master/README.md)
+- New TypesScript.tsx example file for use with screenshots
+- Added new scope &rarr; `minimap.background` introduced in VS Code 1.43.0
+- Use Keyword color for Markdown list dash.
+- Use foreground color for inline punctuation and misc color for inline link descriptions with Markdown scopes
+- Changelog created

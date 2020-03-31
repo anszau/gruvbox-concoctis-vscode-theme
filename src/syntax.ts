@@ -125,7 +125,8 @@ export default [
       "sharing.modifier",
       "keyword.control.class.ruby",
       "keyword.control.def.ruby",
-      "constant.other.color.rgb-value.hex punctuation.definition.constant" // Added.
+      "constant.other.color.rgb-value.hex punctuation.definition.constant", // Added.
+      "punctuation.definition.list.begin.markdown" // Added.
     ],
     settings: {
       foreground: ""

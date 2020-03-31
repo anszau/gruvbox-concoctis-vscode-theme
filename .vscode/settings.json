@@ -8,5 +8,5 @@
     "out/**/*": true
   },
   "eslint.enable": true,
-  "typescript.validate.enable": true
+  "typescript.validate.enable": false
 }

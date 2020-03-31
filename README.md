@@ -20,19 +20,19 @@ Additionally, all screenshots are shown with VSCode's Semantic Highlighting feat
 
 #### medium contrast
 
-![Dark theme - medium contrast](https://github.com/wheredoesyourmindgo/gruvbox-concoctis/raw/master/images/darkMedium.png)
+![Dark theme - medium contrast](https://github.com/wheredoesyourmindgo/gruvbox-concoctis/raw/master/images/darkMediumMix.png)
 
 <div style="padding-top:16px;padding-bottom:16px;"></div>
 
 #### soft contrast
 
-![Dark theme - soft contrast](https://github.com/wheredoesyourmindgo/gruvbox-concoctis/raw/master/images/darkSoft.png)
+![Dark theme - soft contrast](https://github.com/wheredoesyourmindgo/gruvbox-concoctis/raw/master/images/darkSoftMix.png)
 
 <div style="padding-top:16px;padding-bottom:16px;"></div>
 
 #### hard contrast
 
-![Dark theme - hard contrast](https://github.com/wheredoesyourmindgo/gruvbox-concoctis/raw/master/images/darkHard.png)
+![Dark theme - hard contrast](https://github.com/wheredoesyourmindgo/gruvbox-concoctis/raw/master/images/darkHardMix.png)
 
 <div style="padding-top:16px;padding-bottom:16px;"></div>
 
@@ -40,19 +40,19 @@ Additionally, all screenshots are shown with VSCode's Semantic Highlighting feat
 
 #### medium contrast
 
-![Light theme - medium contrast](https://github.com/wheredoesyourmindgo/gruvbox-concoctis/raw/master/images/lightMedium.png)
+![Light theme - medium contrast](https://github.com/wheredoesyourmindgo/gruvbox-concoctis/raw/master/images/lightMediumMix.png)
 
 <div style="padding-top:16px;padding-bottom:16px;"></div>
 
 #### soft contrast
 
-![Light theme - soft contrast](https://github.com/wheredoesyourmindgo/gruvbox-concoctis/raw/master/images/lightSoft.png)
+![Light theme - soft contrast](https://github.com/wheredoesyourmindgo/gruvbox-concoctis/raw/master/images/lightSoftMix.png)
 
 <div style="padding-top:16px;padding-bottom:16px;"></div>
 
 #### hard contrast
 
-![Light theme - hard contrast](https://github.com/wheredoesyourmindgo/gruvbox-concoctis/raw/master/images/lightHard.png)
+![Light theme - hard contrast](https://github.com/wheredoesyourmindgo/gruvbox-concoctis/raw/master/images/lightHardMix.png)
 
 </div>
 

@@ -209,7 +209,7 @@ Use emphasized comment color for certain scopes relating to JSDoc/TSDoc. Use bol
 
 ```tsx
 /**
- * Fetcher utility
+ * Funck
  *
  * @param args - Get funky
  * @return A really sweet dance move
@@ -232,6 +232,18 @@ Use Foreground color for punctuation and Misc color for link descriptions.
 ![light-hard-flat](https://user-images.githubusercontent.com/37491630/75506444-f5810180-59d5-11ea-9844-03fb609d5d5d.png>)
 ```
 
+### Markdown lists
+
+```json
+{
+  "name": "KEYWORD",
+  "scope": ["punctuation.definition.list.begin.markdown"]
+}
 ```
 
+Use Keyword color for list dash.
+
+```md
+- Foo
+- Bar
 ```
