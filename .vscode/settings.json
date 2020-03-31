@@ -6,5 +6,7 @@
     "**/node_modules": true,
     "**/*.code-search": true,
     "out/**/*": true
-  }
+  },
+  "eslint.enable": true,
+  "typescript.validate.enable": true
 }

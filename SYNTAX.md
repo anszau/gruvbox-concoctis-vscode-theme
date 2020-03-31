@@ -2,6 +2,8 @@
 
 ## Changes to syntax.ts
 
+The following are documented deviations from the Noctis theme for general reference.
+
 ### Template Strings
 
 ```json
@@ -177,4 +179,36 @@ Use italic font for HTML JSX/TSX attributes.
 
 ```html
 <div class="foo">bar</div>
+```
+
+### JSDoc/TSDoc comments
+
+```json
+[
+  {
+    "name": "COMMENT_EMPHASIS",
+    "scope": [
+      "comment.block.documentation storage.type.class",
+      "comment.block.documentation punctuation.definition.block.tag",
+      "comment.block.documentation punctuation.definition.inline.tag",
+      "comment.block.documentation variable.other"
+    ]
+  },
+  {
+    "name": "BOLD-ITALIC",
+    "scope": ["comment.block.documentation variable.other"]
+  }
+]
+```
+
+Use emphasized comment color for certain scopes relating to JSDoc/TSDoc. Use bold font with variables within the comment block.
+
+```tsx
+/**
+ * Fetcher utility
+ *
+ * @param args - Get funky
+ * @return A really sweet dance move
+ */
+const func = () => null;
 ```

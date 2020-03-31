@@ -9,9 +9,23 @@ export default [
       "source.ocaml comment constant.regexp meta.separator"
     ],
     settings: {
-      foreground: "#5b858b"
+      foreground: ""
     }
   },
+  /* Added. */
+  {
+    name: "COMMENT_EMPHASIS",
+    scope: [
+      "comment.block.documentation storage.type.class",
+      "comment.block.documentation punctuation.definition.block.tag",
+      "comment.block.documentation punctuation.definition.inline.tag",
+      "comment.block.documentation variable.other"
+    ],
+    settings: {
+      foreground: ""
+    }
+  },
+  /* */
   {
     name: "TEXT",
     scope: [
@@ -51,7 +65,7 @@ export default [
       "meta.attribute-selector entity.other.attribute-name" // Added.
     ],
     settings: {
-      foreground: "#b2cacd"
+      foreground: ""
     }
   },
   {
@@ -113,7 +127,7 @@ export default [
       "constant.other.color.rgb-value.hex punctuation.definition.constant" // Added.
     ],
     settings: {
-      foreground: "#df769b"
+      foreground: ""
     }
   },
   {
@@ -177,7 +191,7 @@ export default [
       "source.scala entity.name.import"
     ],
     settings: {
-      foreground: "#e4b781"
+      foreground: ""
     }
   },
   {
@@ -242,7 +256,7 @@ export default [
       "source.scala entity.name.class"
     ],
     settings: {
-      foreground: "#d67e5c"
+      foreground: ""
     }
   },
   {
@@ -289,7 +303,7 @@ export default [
       "meta.tag.other entity.other.attribute-name" // Added.
     ],
     settings: {
-      foreground: "#d5971a"
+      foreground: ""
     }
   },
   {
@@ -319,8 +333,8 @@ export default [
       "meta.class.identifier storage.modifier",
       "source.scala keyword.declaration",
       "storage.type",
-      "comment.block.documentation punctuation.definition.block.tag",
-      "comment.block.documentation punctuation.definition.inline.tag",
+      // "comment.block.documentation punctuation.definition.block.tag", // Removed.
+      // "comment.block.documentation punctuation.definition.inline.tag", // Removed.
       "entity.tag.apacheconf",
       "keyword.other.julia",
       "source.julia storage.modifier",
@@ -348,7 +362,7 @@ export default [
       "source.tf support.class.variable"
     ],
     settings: {
-      foreground: "#e66533"
+      foreground: ""
     }
   },
   {
@@ -366,7 +380,7 @@ export default [
       "source.env" // Added.
     ],
     settings: {
-      foreground: "#49e9a6"
+      foreground: ""
     }
   },
   {
@@ -406,7 +420,7 @@ export default [
       "source.toml constant"
     ],
     settings: {
-      foreground: "#7060eb"
+      foreground: ""
     }
   },
   {
@@ -433,7 +447,7 @@ export default [
       "source.tf support.class"
     ],
     settings: {
-      foreground: "#16a3b6"
+      foreground: ""
     }
   },
   {
@@ -471,7 +485,7 @@ export default [
       "entity.name.scope-resolution.function.call"
     ],
     settings: {
-      foreground: "#49d6e9"
+      foreground: ""
     }
   },
   {
@@ -528,14 +542,14 @@ export default [
       "entity.other.attribute-name.id punctuation.definition.entity" // Added.
     ],
     settings: {
-      foreground: "#49ace9"
+      foreground: ""
     }
   },
   {
     name: "INVALID",
     scope: ["invalid", "invalid.illegal"],
     settings: {
-      foreground: "#e3541c"
+      foreground: ""
     }
   },
   {
@@ -715,7 +729,8 @@ export default [
       "meta.attribute.id entity.other.attribute-name",
       "keyword.other.fn.rust",
       "source.ocaml punctuation.definition.tag emphasis",
-      "source.tf entity.name"
+      "source.tf entity.name",
+      "comment.block.documentation variable.other" // Added.
     ],
     settings: {
       fontStyle: ""

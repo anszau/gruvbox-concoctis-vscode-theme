@@ -3,6 +3,7 @@ import { getPalette } from "./palette";
 function producePalette(palette) {
   return {
     comment: palette.grey1,
+    comment_emphasis: palette.grey2,
     text: palette.fg,
     keyword: palette.purple,
     variable: palette.fg,
