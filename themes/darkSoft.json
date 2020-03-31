@@ -2,7 +2,7 @@
    "name": "Concoctis - Dark : Soft",
    "type": "dark",
    "colors": {
-      "selection.background": "#504945f0",
+      "selection.background": "#92837459",
       "descriptionForeground": "#c5b18d",
       "errorForeground": "#ea6962FF",
       "widget.shadow": "#00000044",
@@ -117,7 +117,7 @@
       "editorGutter.addedBackground": "#8f9a52a0",
       "editorGutter.deletedBackground": "#ea6962FF",
       "editorGutter.modifiedBackground": "#68948aa0",
-      "editor.selectionBackground": "#504945f0",
+      "editor.selectionBackground": "#92837459",
       "editor.selectionHighlightBackground": "#665c5478",
       "editor.inactiveSelectionBackground": "#d4be9855",
       "editor.wordHighlightStrongBackground": "#72966c30",
@@ -914,8 +914,8 @@
             "meta.import keyword.control",
             "keyword.control.export",
             "meta.tag.attributes entity.other.attribute-name",
-            "meta.attribute-selector entity.other.attribute-name",
-            "text.html entity.other.attribute-name"
+            "text.html entity.other.attribute-name",
+            "meta.attribute-selector entity.other.attribute-name"
          ],
          "settings": {
             "fontStyle": "italic"

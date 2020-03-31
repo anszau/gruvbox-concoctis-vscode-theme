@@ -1,8 +1,39 @@
 export default function(palette, name, type, tokenColors) {
-  const selectionBg = `${palette.bg5}f0`;
+  // const selectionBg = `${palette.bg6}f0`;
   // const selectionBg = `${palette.darkAqua}40`
   // const selectionBg = `${palette.darkBlue}40`;
   // const selectionBg = `${palette.darkRed}40`;
+  let selectionBgBase;
+  const { selectionColor } = palette;
+  switch (selectionColor) {
+    case "green":
+      selectionBgBase = palette.darkGreen;
+      break;
+    case "purple":
+      selectionBgBase = palette.darkPurple;
+      break;
+    case "red":
+      selectionBgBase = palette.darkRed;
+      break;
+    case "orange":
+      selectionBgBase = palette.darkOrange;
+      break;
+    case "yellow":
+      selectionBgBase = palette.darkYellow;
+      break;
+    case "aqua":
+      selectionBgBase = palette.darkAqua;
+      break;
+    case "blue":
+      selectionBgBase = palette.darkBlue;
+      break;
+    case "grey":
+      selectionBgBase = palette.grey2;
+      break;
+    default:
+      selectionBgBase = palette.bg9;
+  }
+  const selectionBg = `${selectionBgBase}${type === "dark" ? "59" : "33"}`; // 35% and 20% respectively
   return {
     name,
     type,
@@ -407,7 +438,8 @@ export default function(palette, name, type, tokenColors) {
       "minimap.warningHighlight": `${palette.darkYellow}80`,
       "minimapGutter.addedBackground": `${palette.darkGreen}a0`,
       "minimapGutter.modifiedBackground": `${palette.darkBlue}a0`,
-      "minimapGutter.deletedBackground": `${palette.darkRed}a0`
+      "minimapGutter.deletedBackground": `${palette.darkRed}a0`,
+      "minimap.backround": `${palette.bg}99`
     },
     tokenColors
   };

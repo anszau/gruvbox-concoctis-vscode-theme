@@ -6,7 +6,7 @@
    <img width="400" src="https://github.com/wheredoesyourmindgo/gruvbox-concoctis/raw/master/images/titleLogo.png" />
 </p>
 
-> This VSCode color scheme is a fork of the comprehensive [Noctis](https://github.com/liviuschera/noctis) theme that uses the [_same_](https://raw.githubusercontent.com/wheredoesyourmindgo/gruvbox-concoctis/master/extra/same.gif) color palette from the comprehensible [Gruvbox Material](https://github.com/gruvbox-material/vscode) theme 👍.
+> This VSCode color scheme is a fork of the comprehensive [Noctis](https://github.com/liviuschera/noctis) theme that uses the [_same_](https://raw.githubusercontent.com/wheredoesyourmindgo/gruvbox-concoctis/master/extra/same.gif) color palette from the comprehensible [Gruvbox Material](https://github.com/gruvbox-material/vscode) theme 👍. When compared to Gruvbox and Gruvbox derivatives, this theme maps scopes to the Gruvbox palette dissimilarly to provide alternate syntax highlighting.
 
 <div style="padding-top:16px;padding-bottom:16px;">
 
@@ -89,6 +89,20 @@ Default: true
 ```json
 {
   "gruvboxConcoctis.useItalicFont": true
+}
+```
+
+#### Selection Background Color
+
+Default: 'neutral'
+
+Available values: "neutral", "aqua", "blue", "green", "grey", "orange", "purple", "red", "yellow"
+
+_Due to the use opacity the difference between "neutral" and "grey" is subtle, while the latter provides a bit more contrast. Consider the latter option while using a Dark variant if more contrast is desired._
+
+```json
+{
+  "gruvboxConcoctis.selectionColor": "orange"
 }
 ```
 

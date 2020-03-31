@@ -127,14 +127,16 @@ Use Misc color for CSS properties.
 ### CSS Attribute selectors
 
 ```json
-({
-  "name": "TEXT",
-  "scope": ["meta.attribute-selector entity.other.attribute-name"]
-},
-{
-  "name": "ITALIC",
-  "scope": ["meta.attribute-selector entity.other.attribute-name"]
-})
+[
+  {
+    "name": "TEXT",
+    "scope": ["meta.attribute-selector entity.other.attribute-name"]
+  },
+  {
+    "name": "ITALIC",
+    "scope": ["meta.attribute-selector entity.other.attribute-name"]
+  }
+]
 ```
 
 Use italic font for Attribute selectors when italic font is enabled and use Foreground palette for text.
@@ -168,10 +170,12 @@ Use Keyword color for CSS colors to match 'constant.other.color'.
 ### HTML/JSX/TSX attributes
 
 ```json
-({
+{
   "name": "ITALIC",
-  "scope": ["meta.tag.attributes entity.other.attribute-name",
-      "text.html entity.other.attribute-name"]
+  "scope": [
+    "meta.tag.attributes entity.other.attribute-name",
+    "text.html entity.other.attribute-name"
+  ]
 }
 ```
 
@@ -211,4 +215,23 @@ Use emphasized comment color for certain scopes relating to JSDoc/TSDoc. Use bol
  * @return A really sweet dance move
  */
 const func = () => null;
+```
+
+### Markdown inline
+
+```json
+{
+  "name": "TEXT",
+  "scope": ["meta.image.inline punctuation.definition.string"]
+}
+```
+
+Use Foreground color for punctuation and Misc color for link descriptions.
+
+```md
+![light-hard-flat](https://user-images.githubusercontent.com/37491630/75506444-f5810180-59d5-11ea-9844-03fb609d5d5d.png>)
+```
+
+```
+
 ```
