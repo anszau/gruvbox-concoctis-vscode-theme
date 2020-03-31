@@ -48,7 +48,8 @@ export default [
       "string.template meta.object-literal.key", // Added.
       "support.type.property-name", // Added.
       "support.type.vendored", // Added.
-      "meta.attribute-selector entity.other.attribute-name" // Added.
+      "meta.attribute-selector entity.other.attribute-name", // Added.
+      "meta.image.inline punctuation.definition.string" // Added
     ],
     settings: {
       foreground: "#b2cacd"
@@ -415,7 +416,7 @@ export default [
       "variable.function",
       // "support.type.property-name", Removed.
       "entity.name.function",
-      "string.other.link",
+      // "string.other.link", Removed.
       "markup.link",
       // "support.type.vendored", Removed.
       "support.other.variable",
@@ -525,7 +526,8 @@ export default [
       "source.tf meta.keyword.list",
       "source.tf meta.keyword.map",
       "entity.other.attribute-name.id", // Added.
-      "entity.other.attribute-name.id punctuation.definition.entity" // Added.
+      "entity.other.attribute-name.id punctuation.definition.entity", // Added.
+      "string.other.link" // Added.
     ],
     settings: {
       foreground: "#49ace9"
