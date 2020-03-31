@@ -438,7 +438,8 @@ export default function(palette, name, type, tokenColors) {
       "minimap.warningHighlight": `${palette.darkYellow}80`,
       "minimapGutter.addedBackground": `${palette.darkGreen}a0`,
       "minimapGutter.modifiedBackground": `${palette.darkBlue}a0`,
-      "minimapGutter.deletedBackground": `${palette.darkRed}a0`
+      "minimapGutter.deletedBackground": `${palette.darkRed}a0`,
+      "minimap.backround": `${palette.bg}99`
     },
     tokenColors
   };
