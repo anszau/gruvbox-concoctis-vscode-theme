@@ -18,41 +18,53 @@ Additionally, all screenshots are shown with VSCode's Semantic Highlighting feat
 
 ### Dark theme
 
-#### medium contrast
+#### dark medium contrast
 
-![Dark theme - medium contrast](https://github.com/wheredoesyourmindgo/gruvbox-concoctis/raw/master/images/darkMediumMix.png)
+<!-- ![Dark theme - medium contrast](https://github.com/wheredoesyourmindgo/gruvbox-concoctis/raw/master/images/darkMediumMix.png) -->
 
-<div style="padding-top:16px;padding-bottom:16px;"></div>
-
-#### soft contrast
-
-![Dark theme - soft contrast](https://github.com/wheredoesyourmindgo/gruvbox-concoctis/raw/master/images/darkSoftMix.png)
+<img src="https://github.com/wheredoesyourmindgo/gruvbox-concoctis/raw/master/images/darkMediumMix.png" alt="Dark theme - medium contrast" width="700" />
 
 <div style="padding-top:16px;padding-bottom:16px;"></div>
 
-#### hard contrast
+#### dark soft contrast
 
-![Dark theme - hard contrast](https://github.com/wheredoesyourmindgo/gruvbox-concoctis/raw/master/images/darkHardMix.png)
+<!-- ![Dark theme - soft contrast](https://github.com/wheredoesyourmindgo/gruvbox-concoctis/raw/master/images/darkSoftMix.png) -->
+
+<img src="https://github.com/wheredoesyourmindgo/gruvbox-concoctis/raw/master/images/darkSoftMix.png" alt="[Dark theme - soft contrast" width="700" />
+
+<div style="padding-top:16px;padding-bottom:16px;"></div>
+
+#### dark hard contrast
+
+<!-- ![Dark theme - hard contrast](https://github.com/wheredoesyourmindgo/gruvbox-concoctis/raw/master/images/darkHardMix.png) -->
+
+<img src="https://github.com/wheredoesyourmindgo/gruvbox-concoctis/raw/master/images/darkHardMix.png" alt="[Dark theme - hard contrast" width="700" />
 
 <div style="padding-top:16px;padding-bottom:16px;"></div>
 
 ### Light theme
 
-#### medium contrast
+#### light medium contrast
 
-![Light theme - medium contrast](https://github.com/wheredoesyourmindgo/gruvbox-concoctis/raw/master/images/lightMediumMix.png)
+<!-- ![Light theme - medium contrast](https://github.com/wheredoesyourmindgo/gruvbox-concoctis/raw/master/images/lightMediumMix.png) -->
 
-<div style="padding-top:16px;padding-bottom:16px;"></div>
-
-#### soft contrast
-
-![Light theme - soft contrast](https://github.com/wheredoesyourmindgo/gruvbox-concoctis/raw/master/images/lightSoftMix.png)
+<img src="https://github.com/wheredoesyourmindgo/gruvbox-concoctis/raw/master/images/lightMediumMix.png" alt="[Light theme - medium contrast" width="700" />
 
 <div style="padding-top:16px;padding-bottom:16px;"></div>
 
-#### hard contrast
+#### light soft contrast
 
-![Light theme - hard contrast](https://github.com/wheredoesyourmindgo/gruvbox-concoctis/raw/master/images/lightHardMix.png)
+<!-- ![Light theme - soft contrast](https://github.com/wheredoesyourmindgo/gruvbox-concoctis/raw/master/images/lightSoftMix.png) -->
+
+<img src="https://github.com/wheredoesyourmindgo/gruvbox-concoctis/raw/master/images/lightSoftMix.png" alt="[Light theme - soft contrast" width="700" />
+
+<div style="padding-top:16px;padding-bottom:16px;"></div>
+
+#### light hard contrast
+
+<!-- ![Light theme - hard contrast](https://github.com/wheredoesyourmindgo/gruvbox-concoctis/raw/master/images/lightHardMix.png) -->
+
+<img src="https://github.com/wheredoesyourmindgo/gruvbox-concoctis/raw/master/images/lightHardMix.png" alt="[Light theme - hard contrast" width="700" />
 
 </div>
 
@@ -114,7 +126,7 @@ You may find yourself programming at different times in a given day in various l
 
 #### Example Settings
 
-**settings.json**
+##### settings.json
 
 ```json
 {
@@ -180,7 +192,7 @@ You may find yourself programming at different times in a given day in various l
 }
 ```
 
-**keybindings.json**
+##### keybindings.json
 
 ```json
 [
