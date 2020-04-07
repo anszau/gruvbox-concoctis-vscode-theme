@@ -6,11 +6,11 @@ export default [
       "punctuation.definition.comment",
       "punctuation.definition.tag",
       "comment.block.documentation punctuation.definition.bracket",
-      "source.ocaml comment constant.regexp meta.separator"
+      "source.ocaml comment constant.regexp meta.separator",
     ],
     settings: {
-      foreground: ""
-    }
+      foreground: "",
+    },
   },
   /* Added. */
   {
@@ -19,11 +19,11 @@ export default [
       "comment.block.documentation storage.type.class",
       "comment.block.documentation punctuation.definition.block.tag",
       "comment.block.documentation punctuation.definition.inline.tag",
-      "comment.block.documentation variable.other"
+      "comment.block.documentation variable.other",
     ],
     settings: {
-      foreground: ""
-    }
+      foreground: "",
+    },
   },
   /* */
   {
@@ -63,11 +63,11 @@ export default [
       "support.type.property-name", // Added.
       "support.type.vendored", // Added.
       "meta.attribute-selector entity.other.attribute-name", // Added.
-      "meta.image.inline punctuation.definition.string" // Added
+      "meta.image.inline punctuation.definition.string", // Added
     ],
     settings: {
-      foreground: ""
-    }
+      foreground: "",
+    },
   },
   {
     name: "KEYWORD",
@@ -126,11 +126,11 @@ export default [
       "keyword.control.class.ruby",
       "keyword.control.def.ruby",
       "constant.other.color.rgb-value.hex punctuation.definition.constant", // Added.
-      "punctuation.definition.list.begin.markdown" // Added.
+      "punctuation.definition.list.begin.markdown", // Added.
     ],
     settings: {
-      foreground: ""
-    }
+      foreground: "",
+    },
   },
   {
     name: "VARIABLE",
@@ -190,11 +190,11 @@ export default [
       "source.toml keyword",
       "support.type.nim",
       "source.tf meta.template.expression",
-      "source.scala entity.name.import"
+      "source.scala entity.name.import",
     ],
     settings: {
-      foreground: ""
-    }
+      foreground: "",
+    },
   },
   {
     name: "ANNOTATION",
@@ -255,11 +255,12 @@ export default [
       "support.class.builtin",
       "source.tf meta.keyword.string",
       "source.tf meta.keyword.number",
-      "source.scala entity.name.class"
+      "source.scala entity.name.class",
+      "support.type.property-name.json punctuation.support.type.property-name", // Added.
     ],
     settings: {
-      foreground: ""
-    }
+      foreground: "",
+    },
   },
   {
     name: "CONSTANT",
@@ -302,11 +303,11 @@ export default [
       "variable.other.positional.shell punctuation.definition.variable.shell", // Added.
       "variable.other.bracket.shell", // Added.
       "variable.other.makefile", // Added.
-      "meta.tag.other entity.other.attribute-name" // Added.
+      "meta.tag.other entity.other.attribute-name", // Added.
     ],
     settings: {
-      foreground: ""
-    }
+      foreground: "",
+    },
   },
   {
     name: "TAG",
@@ -361,11 +362,11 @@ export default [
       "keyword.other.skinparam.keyword",
       "keyword.other.nim",
       "markup.deleted.diff",
-      "source.tf support.class.variable"
+      "source.tf support.class.variable",
     ],
     settings: {
-      foreground: ""
-    }
+      foreground: "",
+    },
   },
   {
     name: "STRING",
@@ -379,11 +380,11 @@ export default [
       "source.scala punctuation.definition.character",
       "constant.character.literal.scala",
       "source.tf entity.name",
-      "source.env" // Added.
+      "source.env", // Added.
     ],
     settings: {
-      foreground: ""
-    }
+      foreground: "",
+    },
   },
   {
     name: "STRINGINTERPOLATED",
@@ -399,11 +400,11 @@ export default [
       "markup.inline.raw punctuation.definition.raw",
       "string.quoted.double.interpolated.crystal",
       "string.quoted.double.interpolated.crystal punctuation.definition.string",
-      "text.tex markup.raw"
+      "text.tex markup.raw",
     ],
     settings: {
-      foreground: "#16b673"
-    }
+      foreground: "#16b673",
+    },
   },
   {
     name: "NUMBER",
@@ -419,11 +420,11 @@ export default [
       "constant.others.fsharp",
       "keyword.other.unit",
       "string.quoted.double.skinparam.value",
-      "source.toml constant"
+      "source.toml constant",
     ],
     settings: {
-      foreground: ""
-    }
+      foreground: "",
+    },
   },
   {
     name: "FUNCTION",
@@ -446,11 +447,11 @@ export default [
       "support.variable.class.function",
       "keyword.control.cucumber.table",
       "punctuation.decorator",
-      "source.tf support.class"
+      "source.tf support.class",
     ],
     settings: {
-      foreground: ""
-    }
+      foreground: "",
+    },
   },
   {
     name: "SUPPORT",
@@ -484,11 +485,11 @@ export default [
       "keyword.language.gherkin.feature.scenario",
       "source.nim keyword.other.common.function",
       "entity.name.type.namespace",
-      "entity.name.scope-resolution.function.call"
+      "entity.name.scope-resolution.function.call",
     ],
     settings: {
-      foreground: ""
-    }
+      foreground: "",
+    },
   },
   {
     name: "MISC",
@@ -542,18 +543,18 @@ export default [
       "source.tf meta.keyword.map",
       "entity.other.attribute-name.id", // Added.
       "entity.other.attribute-name.id punctuation.definition.entity", // Added.
-      "string.other.link" // Added.
+      "string.other.link", // Added.
     ],
     settings: {
-      foreground: ""
-    }
+      foreground: "",
+    },
   },
   {
     name: "INVALID",
     scope: ["invalid", "invalid.illegal"],
     settings: {
-      foreground: ""
-    }
+      foreground: "",
+    },
   },
   {
     name: "ITALIC",
@@ -652,11 +653,11 @@ export default [
       "keyword.control.export",
       "meta.tag.attributes entity.other.attribute-name", // Added.
       "text.html entity.other.attribute-name", // Added.
-      "meta.attribute-selector entity.other.attribute-name" // Added.
+      "meta.attribute-selector entity.other.attribute-name", // Added.
     ],
     settings: {
-      fontStyle: ""
-    }
+      fontStyle: "",
+    },
   },
   {
     name: "BOLD",
@@ -709,11 +710,11 @@ export default [
       "meta.function.parameters variable punctuation.definition.variable.php",
       "source.wsd keyword.other.activity",
       "keyword.control.class.ruby",
-      "keyword.control.def.ruby"
+      "keyword.control.def.ruby",
     ],
     settings: {
-      fontStyle: ""
-    }
+      fontStyle: "",
+    },
   },
   {
     name: "BOLD-ITALIC",
@@ -733,11 +734,11 @@ export default [
       "keyword.other.fn.rust",
       "source.ocaml punctuation.definition.tag emphasis",
       "source.tf entity.name",
-      "comment.block.documentation variable.other" // Added.
+      "comment.block.documentation variable.other", // Added.
     ],
     settings: {
-      fontStyle: ""
-    }
+      fontStyle: "",
+    },
   },
   {
     name: "NORMAL",
@@ -805,10 +806,10 @@ export default [
       "source.nim keyword.other.common.function",
       "source.nim keyword.other",
       "source.scala keyword.declaration",
-      "source.scala entity.name.class.declaration"
+      "source.scala entity.name.class.declaration",
     ],
     settings: {
-      fontStyle: ""
-    }
-  }
+      fontStyle: "",
+    },
+  },
 ];

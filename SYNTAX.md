@@ -247,3 +247,22 @@ Use Keyword color for list dash.
 - Foo
 - Bar
 ```
+
+### JSON
+
+```json
+{
+  "name": "ANNOTATION",
+  "scope": [
+    "support.type.property-name.json punctuation.support.type.property-name"
+  ]
+}
+```
+
+Use subtle annotation color for json punctuation/quotes.
+
+```json
+{
+  "foobar": "baz"
+}
+```

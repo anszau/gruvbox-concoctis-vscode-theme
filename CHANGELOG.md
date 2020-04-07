@@ -1,5 +1,9 @@
 # Change Log
 
+## **10.30.22**
+
+- Use de-emphasized annotation color for JSON property quotes
+
 ## **10.30.21**
 
 - Use emphasized comment color for certain scopes relating to JSDoc/TSDoc

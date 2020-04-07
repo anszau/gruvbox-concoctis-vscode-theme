@@ -533,7 +533,8 @@
             "support.class.builtin",
             "source.tf meta.keyword.string",
             "source.tf meta.keyword.number",
-            "source.scala entity.name.class"
+            "source.scala entity.name.class",
+            "support.type.property-name.json punctuation.support.type.property-name"
          ],
          "settings": {
             "foreground": "#c5b18d"
