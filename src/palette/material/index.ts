@@ -1,9 +1,9 @@
-import darkMediumPalette from "./darkMedium";
-import lightMediumPalette from "./lightMedium";
-import darkSoftPalette from "./darkSoft";
-import lightSoftPalette from "./lightSoft";
-import darkHardPalette from "./darkHard";
-import lightHardPalette from "./lightHard";
+import darkMediumPalette from './darkMedium'
+import lightMediumPalette from './lightMedium'
+import darkSoftPalette from './darkSoft'
+import lightSoftPalette from './lightSoft'
+import darkHardPalette from './darkHard'
+import lightHardPalette from './lightHard'
 
 export {
   darkMediumPalette,
@@ -12,4 +12,4 @@ export {
   lightMediumPalette,
   lightSoftPalette,
   lightHardPalette
-};
+}

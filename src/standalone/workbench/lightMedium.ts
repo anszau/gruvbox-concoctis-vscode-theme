@@ -1,10 +1,10 @@
-import { getPalette } from "../palette";
-import workbenchSyntax from "../../workbench/workbenchSyntax";
+import {getPalette} from '../palette'
+import workbenchSyntax from '../../workbench/workbenchSyntax'
 
-export default syntax =>
+export default (syntax) =>
   workbenchSyntax(
     getPalette().lightMediumPalette,
-    "Concoctis - Light : Medium",
-    "light",
+    'Concoctis - Light : Medium',
+    'light',
     syntax
-  );
+  )

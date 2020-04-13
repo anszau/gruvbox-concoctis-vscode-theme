@@ -1,4 +1,4 @@
-import { themes } from "./themes";
-import { buildAllThemes } from "./buildAllThemes";
+import {themes} from './themes'
+import {buildAllThemes} from './buildAllThemes'
 
-buildAllThemes(themes);
+buildAllThemes(themes)

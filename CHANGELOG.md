@@ -1,5 +1,10 @@
 # Change Log
 
+## **10.30.23**
+
+- Use just enough syntax highlighting
+- Prettier source. NPM script added to package.json
+
 ## **10.30.22**
 
 - Use de-emphasized annotation color for JSON property quotes

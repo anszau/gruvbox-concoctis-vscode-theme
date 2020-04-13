@@ -5,7 +5,7 @@ import {
   darkSoftPalette,
   lightHardPalette,
   lightSoftPalette
-} from "../../palette/material";
+} from '../../palette/material'
 
 export function getPalette() {
   return {
@@ -15,5 +15,5 @@ export function getPalette() {
     lightMediumPalette,
     lightSoftPalette,
     lightHardPalette
-  };
+  }
 }

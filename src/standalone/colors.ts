@@ -1,4 +1,4 @@
-import { getPalette } from "./palette";
+import {getPalette} from './palette'
 
 function producePalette(palette) {
   return {
@@ -17,7 +17,7 @@ function producePalette(palette) {
     support: palette.fg0,
     misc: palette.blue,
     invalid: palette.red
-  };
+  }
 }
 
 export function getColors() {
@@ -28,7 +28,7 @@ export function getColors() {
     lightSoftPalette,
     lightHardPalette,
     darkHardPalette
-  } = getPalette();
+  } = getPalette()
   return {
     darkMedium: producePalette(darkMediumPalette),
     lightMedium: producePalette(lightMediumPalette),
@@ -36,5 +36,5 @@ export function getColors() {
     lightSoft: producePalette(lightSoftPalette),
     darkHard: producePalette(darkHardPalette),
     lightHard: producePalette(lightHardPalette)
-  };
+  }
 }

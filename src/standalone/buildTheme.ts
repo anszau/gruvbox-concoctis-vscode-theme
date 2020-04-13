@@ -1,6 +1,6 @@
-import { writeFile } from "fs";
-import { promisify } from "util";
-import { createSyntax } from "./createSyntax";
+import {writeFile} from 'fs'
+import {promisify} from 'util'
+import {createSyntax} from './createSyntax'
 /**
  *
  *
@@ -16,13 +16,13 @@ export async function buildTheme(
   themeWorkbench,
   themeName
 ) {
-  const syntaxWithColors = createSyntax(syntaxColors);
-  const writeFileAsync = promisify(writeFile);
-  const theme = themeWorkbench(syntaxWithColors);
+  const syntaxWithColors = createSyntax(syntaxColors)
+  const writeFileAsync = promisify(writeFile)
+  const theme = themeWorkbench(syntaxWithColors)
   try {
-    await writeFileAsync(path, JSON.stringify(theme, null, 3));
-    console.log(`✔  ${themeName} theme built`);
+    await writeFileAsync(path, JSON.stringify(theme, null, 3))
+    console.log(`✔  ${themeName} theme built`)
   } catch (error) {
-    console.error(`❗  ${error}`);
+    console.error(`❗  ${error}`)
   }
 }

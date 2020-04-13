@@ -16,10 +16,7 @@ The following are documented deviations from the Noctis theme for general refere
 Use forground color for objects inside template strings.
 
 ```js
-const url = `${baseUrl}${stringify(
-  { prop: 123, anotherProp: "foobar" },
-  true
-)}`;
+const url = `${baseUrl}${stringify({prop: 123, anotherProp: 'foobar'}, true)}`
 ```
 
 ### Shell script variables
@@ -142,7 +139,7 @@ Use Misc color for CSS properties.
 Use italic font for Attribute selectors when italic font is enabled and use Foreground palette for text.
 
 ```css
-main[type="foobar"] {
+main[type='foobar'] {
   margin-top: 24px;
 }
 ```
@@ -214,7 +211,7 @@ Use emphasized comment color for certain scopes relating to JSDoc/TSDoc. Use bol
  * @param args - Get funky
  * @return A really sweet dance move
  */
-const func = () => null;
+const func = () => null
 ```
 
 ### Markdown inline
@@ -264,5 +261,31 @@ Use subtle annotation color for json punctuation/quotes.
 ```json
 {
   "foobar": "baz"
+}
+```
+
+### Variable Declaration
+
+```json
+{
+  "name": "CONSTANT",
+  "scope": ["meta.definition variable.other"]
+}
+```
+
+Use highlighting as variables are declared (ie. const, let, var).
+
+```js
+{
+  var bing = 'bam'
+  const foobar = 'baz'
+  const LOUD_VAR = 'Hey you!'
+  let never = 'again'
+  let [one, two] = [1, 2]
+  let {chico} = {chico: 'bark'}
+
+  bing = 'boom'
+  never = 'i lied'
+  console.log(foobar, bing, one, two, LOUD_VAR, never)
 }
 ```

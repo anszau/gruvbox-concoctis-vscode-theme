@@ -5,13 +5,13 @@ import {
   lightHard,
   lightMedium,
   lightSoft
-} from "./workbench";
+} from './workbench'
 
 export const themes = [
-  { darkMedium },
-  { lightMedium },
-  { darkSoft },
-  { lightSoft },
-  { darkHard },
-  { lightHard }
-];
+  {darkMedium},
+  {lightMedium},
+  {darkSoft},
+  {lightSoft},
+  {darkHard},
+  {lightHard}
+]

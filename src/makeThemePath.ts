@@ -1,5 +1,5 @@
-import { existsSync, unlinkSync } from "fs";
-import { join } from "path";
+import {existsSync, unlinkSync} from 'fs'
+import {join} from 'path'
 
 /**
  *
@@ -8,18 +8,13 @@ import { join } from "path";
  * @returns {array}
  */
 export function makeThemePath(themesArray) {
-  const PATHS = [];
-  themesArray.forEach(theme => {
-    const path = join(
-      __dirname,
-      "..",
-      "themes",
-      `./${Object.keys(theme)}.json`
-    );
+  const PATHS = []
+  themesArray.forEach((theme) => {
+    const path = join(__dirname, '..', 'themes', `./${Object.keys(theme)}.json`)
     if (existsSync(path)) {
-      unlinkSync(path);
+      unlinkSync(path)
     }
-    PATHS.push(path);
-  });
-  return PATHS;
+    PATHS.push(path)
+  })
+  return PATHS
 }

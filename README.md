@@ -6,7 +6,7 @@
    <img width="400" src="https://github.com/wheredoesyourmindgo/gruvbox-concoctis/raw/master/images/titleLogo.png" />
 </p>
 
-> This VSCode color scheme is a fork of the comprehensive [Noctis](https://github.com/liviuschera/noctis) theme that uses the [_same_](https://raw.githubusercontent.com/wheredoesyourmindgo/gruvbox-concoctis/master/extra/same.gif) color palette from the comprehensible [Gruvbox Material](https://github.com/gruvbox-material/vscode) theme 👍. When compared to Gruvbox and Gruvbox derivatives, this theme maps scopes to the Gruvbox palette dissimilarly to provide alternate syntax highlighting.
+> This VSCode color scheme is a fork of the comprehensive [Noctis](https://github.com/liviuschera/noctis) theme that uses the [_same_](https://raw.githubusercontent.com/wheredoesyourmindgo/gruvbox-concoctis/master/extra/same.gif) color palette from the comprehensible [Gruvbox Material](https://github.com/gruvbox-material/vscode) theme 👍. When compared to Gruvbox and Gruvbox derivatives, this theme maps scopes to the Gruvbox palette dissimilarly to provide alternate syntax highlighting; [just enough](#just-enought) syntax highlighting.
 
 <div style="padding-top:16px;padding-bottom:16px;">
 
@@ -115,6 +115,16 @@ _Due to the use opacity the difference between "neutral" and "grey" is subtle, w
 ```json
 {
   "gruvboxConcoctis.selectionColor": "orange"
+}
+```
+
+### <a name="just-enough"></a>Just Enough Syntax Highlighting
+
+Some languages a rich grammar and plenty of opportunity for highlighting various tokens, TypeScript React is a prime example. Opinions are made in this theme, namely, variables are only highlighted at the time they are declared. As they are used and set they revert to the foreground color to keep code highlighting sane. Less robust languages that feature fewer tokens and a simpiler grammar, such as Shell Scripts will always use the highlight color. The end goal in all of this is to provide a _meaningful_ level of syntax highlighting in any given file. If all of this sounds appealing to you you may want to disable VSCode's semantic highlighting feature since in part it will do the very opposite. This can be disabled with the following option.
+
+```json
+{
+  "editor.semanticHighlighting.enabled": false
 }
 ```
 
