@@ -544,7 +544,6 @@
          "name": "CONSTANT",
          "scope": [
             "constant",
-            "variable.other.constant",
             "support.constant",
             "punctuation.definition.entity",
             "constant.character.entity",
@@ -581,7 +580,8 @@
             "variable.other.positional.shell punctuation.definition.variable.shell",
             "variable.other.bracket.shell",
             "variable.other.makefile",
-            "meta.tag.other entity.other.attribute-name"
+            "meta.tag.other entity.other.attribute-name",
+            "meta.definition variable.other"
          ],
          "settings": {
             "foreground": "#d8a657"
