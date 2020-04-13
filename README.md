@@ -120,7 +120,7 @@ _Due to the use opacity the difference between "neutral" and "grey" is subtle, w
 
 ### <a name="just-enough"></a>Just Enough Syntax Highlighting
 
-Some languages a rich grammar and plenty of opportunity for highlighting various tokens, TypeScript React is a prime example. Opinions are made in this theme, namely, variables are only highlighted at the time they are declared. As they are used and set they revert to the foreground color to keep code highlighting sane. Less robust languages that feature fewer tokens and a simpiler grammar, such as Shell Scripts will always use the highlight color. The end goal in all of this is to provide a _meaningful_ level of syntax highlighting in any given file. If all of this sounds appealing to you you may want to disable VSCode's semantic highlighting feature since in part it will do the very opposite. This can be disabled with the following option.
+Some languages feature a rich grammar and plenty of opportunity for the highlighting of various tokens, TypeScript React is a prime example. Consequently, variables are only highlighted at the time they are declared in this. As they are used and set they revert to the foreground color to keep code highlighting sane. Less robust languages that feature fewer tokens and a simpiler grammar, such as Shell Scripts will always use the highlight color. The end goal in all of this is to provide a _meaningful_ level of syntax highlighting in any given file. If all of this sounds appealing to you you may want to disable VSCode's semantic highlighting feature since in part it will do the very opposite. This can be disabled with the following option.
 
 ```json
 {
