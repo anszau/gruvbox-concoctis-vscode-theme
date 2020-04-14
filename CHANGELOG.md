@@ -1,6 +1,6 @@
 # Change Log
 
-## **10.30.24**
+## **10.30.25**
 
 - Improve contrast of selected/focused list items in workbench.
 
