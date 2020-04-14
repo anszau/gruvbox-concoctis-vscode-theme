@@ -1,5 +1,9 @@
 # Change Log
 
+## **10.30.24**
+
+- Improve contrast of selected/focused list items in workbench.
+
 ## **10.30.23**
 
 - Use just enough syntax highlighting
