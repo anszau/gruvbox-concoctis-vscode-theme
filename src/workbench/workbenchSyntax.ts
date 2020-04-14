@@ -358,10 +358,10 @@ export default function (palette, name, type, tokenColors) {
       // ---------------------------
       // Lists and Trees
       // ---------------------------
-      'list.activeSelectionBackground': `${palette.bg8}80`,
+      'list.activeSelectionBackground': `${palette.bg}80`,
       'list.activeSelectionForeground': `${palette.fg0}`,
       'list.dropBackground': `${palette.bg2}80`,
-      'list.focusBackground': `${palette.bg8}80`,
+      'list.focusBackground': `${palette.bg}80`,
       'list.focusForeground': `${palette.fg0}`,
       'list.highlightForeground': palette.yellow,
       'list.hoverBackground': `${palette.bg}00`,
