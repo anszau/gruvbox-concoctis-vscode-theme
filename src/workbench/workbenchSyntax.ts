@@ -204,6 +204,7 @@ export default function (palette, name, type, tokenColors) {
       'editorGutter.addedBackground': `${palette.darkGreen}a0`,
       'editorGutter.deletedBackground': `${palette.red}FF`,
       'editorGutter.modifiedBackground': `${palette.darkBlue}a0`,
+      'editorGutter.commentRangeForeground': palette.grey0, // Added.
       // ---------------------------
       // Selection Colors
       // ---------------------------

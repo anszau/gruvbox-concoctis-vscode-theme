@@ -1,5 +1,9 @@
 # Change Log
 
+## **10.30.26**
+
+- `editorGutter.commentRangeForeground` customization added.
+
 ## **10.30.25**
 
 - Improve contrast of selected/focused list items in workbench.
