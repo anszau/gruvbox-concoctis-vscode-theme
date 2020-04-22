@@ -180,7 +180,8 @@ You may find yourself programming at different times in a given day in various l
           "scm.diffDecorations": "all",
           "editor.hideCursorInOverviewRuler": false,
           "gitlens.codeLens.enabled": true,
-          "gitlens.currentLine.enabled": true
+          "gitlens.currentLine.enabled": true,
+          "color-highlight.markRuler": true
         },
         {
           "editor.minimap.enabled": false,
@@ -194,7 +195,8 @@ You may find yourself programming at different times in a given day in various l
           "scm.diffDecorations": "none",
           "editor.hideCursorInOverviewRuler": true,
           "gitlens.codeLens.enabled": false,
-          "gitlens.currentLine.enabled": false
+          "gitlens.currentLine.enabled": false,
+          "color-highlight.markRuler": true
         }
       ]
     }
