@@ -235,8 +235,7 @@ export default function (palette, name, type, tokenColors) {
       // Integrated Terminal Colors
       // ---------------------------
       'terminal.ansiBlack':
-        (type === 'dark' ? palette.darkColor : palette.lightColor) ??
-        `${palette.bg7}`,
+        type === 'dark' ? `${palette.bg2}` : `${palette.fg0}`,
       'terminal.ansiRed': palette.neutralRed ?? `${palette.red}`,
       'terminal.ansiGreen': palette.neutralGreen ?? `${palette.green}`,
       'terminal.ansiYellow': palette.neutralYellow ?? `${palette.yellow}`,
@@ -244,9 +243,9 @@ export default function (palette, name, type, tokenColors) {
       'terminal.ansiMagenta': palette.neutralPurple ?? `${palette.purple}`,
       'terminal.ansiCyan': palette.neutralAqua ?? `${palette.aqua}`,
       'terminal.ansiWhite':
-        (type === 'dark' ? palette.lightGreyColor : palette.darkGreyColor) ??
-        palette.fg,
-      'terminal.ansiBrightBlack': palette.greyColor ?? `${palette.bg7}`,
+        type === 'dark' ? `${palette.fg}` : `${palette.grey1}`,
+      'terminal.ansiBrightBlack':
+        type === 'dark' ? `${palette.grey1}` : `${palette.fg}`,
       'terminal.ansiBrightRed': `${palette.red}`,
       'terminal.ansiBrightGreen': `${palette.green}`,
       'terminal.ansiBrightYellow': `${palette.yellow}`,
@@ -254,9 +253,7 @@ export default function (palette, name, type, tokenColors) {
       'terminal.ansiBrightMagenta': `${palette.purple}`,
       'terminal.ansiBrightCyan': `${palette.aqua}`,
       'terminal.ansiBrightWhite':
-        (type === 'dark'
-          ? palette.lightColorOption1
-          : palette.darkColorOption1) ?? `${palette.fg}`,
+        type === 'dark' ? `${palette.fg0}` : `${palette.bg2}`,
       'terminal.background': palette.bg,
       'terminal.foreground': palette.fg,
       'terminalCursor.background': palette.bg,

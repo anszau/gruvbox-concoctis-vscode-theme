@@ -2,6 +2,8 @@
 
 ## **10.30.26**
 
+- Removed neutral palette due to un-necessary complexity
+- Updated terminal colors based on upstream changes
 - `editorGutter.commentRangeForeground` customization added.
 
 ## **10.30.25**

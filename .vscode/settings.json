@@ -1,12 +1,4 @@
 {
   "cSpell.enabled": false,
-  "editor.formatOnSave": true,
-  "editor.renderIndentGuides": false,
-  "search.exclude": {
-    "**/node_modules": true,
-    "**/*.code-search": true,
-    "out/**/*": true
-  },
-  "eslint.enable": true,
-  "typescript.validate.enable": false
+  "editor.formatOnSave": true
 }

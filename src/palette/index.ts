@@ -17,7 +17,6 @@ import darkSoftOrigPalette from './original/darkSoft'
 import lightSoftOrigPalette from './original/lightSoft'
 import darkHardOrigPalette from './original/darkHard'
 import lightHardOrigPalette from './original/lightHard'
-import {neutralPalette} from './original'
 
 export function getPalette() {
   const utils = new Utils()
@@ -28,32 +27,26 @@ export function getPalette() {
   if (usePalette === 'original') {
     return {
       darkMediumPalette: {
-        ...neutralPalette,
         ...darkMediumOrigPalette,
         selectionColor
       },
       darkSoftPalette: {
-        ...neutralPalette,
         ...darkSoftOrigPalette,
         selectionColor
       },
       darkHardPalette: {
-        ...neutralPalette,
         ...darkHardOrigPalette,
         selectionColor
       },
       lightMediumPalette: {
-        ...neutralPalette,
         ...lightMediumOrigPalette,
         selectionColor
       },
       lightSoftPalette: {
-        ...neutralPalette,
         ...lightSoftOrigPalette,
         selectionColor
       },
       lightHardPalette: {
-        ...neutralPalette,
         ...lightHardOrigPalette,
         selectionColor
       }
