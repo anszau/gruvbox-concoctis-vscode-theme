@@ -117,6 +117,7 @@
       "editorGutter.addedBackground": "#a9b665a0",
       "editorGutter.deletedBackground": "#c14a4aFF",
       "editorGutter.modifiedBackground": "#7daea3a0",
+      "editorGutter.commentRangeForeground": "#a89984",
       "editor.selectionBackground": "#a8998433",
       "editor.selectionHighlightBackground": "#c9b99a78",
       "editor.inactiveSelectionBackground": "#65473555",
@@ -304,7 +305,7 @@
             "comment.block.documentation variable.other"
          ],
          "settings": {
-            "foreground": ""
+            "foreground": "#7c6f64"
          }
       },
       {
@@ -473,7 +474,7 @@
             "source.scala entity.name.import"
          ],
          "settings": {
-            "foreground": "#4f3829"
+            "foreground": "#654735"
          }
       },
       {
@@ -761,7 +762,7 @@
             "entity.name.scope-resolution.function.call"
          ],
          "settings": {
-            "foreground": "#4f3829"
+            "foreground": "#4c7a5d"
          }
       },
       {
