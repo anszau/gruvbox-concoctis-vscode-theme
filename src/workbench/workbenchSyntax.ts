@@ -261,7 +261,7 @@ export default function (palette, name, type, tokenColors) {
       // ---------------------------
       // Merge Conflicts
       // ---------------------------
-      'merge.border': `${palette.bg}00`,
+      'merge.border': `${palette.bg}80`,
       'merge.currentContentBackground': `${palette.darkBlue}40`,
       'merge.currentHeaderBackground': `${palette.darkBlue}80`,
       'merge.incomingContentBackground': `${palette.darkAqua}40`,
@@ -356,20 +356,20 @@ export default function (palette, name, type, tokenColors) {
       // ---------------------------
       // Lists and Trees
       // ---------------------------
-      'list.activeSelectionBackground': `${palette.bg}80`,
+      'list.activeSelectionBackground': `${palette.bg}99`,
       'list.activeSelectionForeground': `${palette.fg0}`,
       'list.dropBackground': `${palette.bg2}80`,
       'list.focusBackground': `${palette.bg}80`,
       'list.focusForeground': `${palette.fg0}`,
       'list.highlightForeground': palette.yellow,
-      'list.hoverBackground': `${palette.bg}00`,
+      'list.hoverBackground': `${palette.bg2}99`,
       'list.hoverForeground': `${palette.fg0}`,
       'list.inactiveFocusBackground': `${palette.bg3}80`,
       'list.inactiveSelectionBackground': `${palette.bg3}80`,
       'list.inactiveSelectionForeground': `${palette.grey2}`,
       'list.errorForeground': `${palette.red}`,
       'list.warningForeground': `${palette.yellow}`,
-      'listFilterWidget.background': `${palette.bg}00`,
+      'listFilterWidget.background': `${palette.bg}80`,
       'listFilterWidget.outline': `${palette.blue}FF`,
       'listFilterWidget.noMatchesOutline': `${palette.red}FF`,
       'tree.indentGuidesStroke': `${palette.grey0}`,

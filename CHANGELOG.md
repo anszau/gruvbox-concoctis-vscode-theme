@@ -1,5 +1,9 @@
 # Change Log
 
+## **10.30.27**
+
+- Fix list hover background
+
 ## **10.30.26**
 
 - Removed neutral palette due to un-necessary complexity
