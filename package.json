@@ -29,7 +29,8 @@
     "build-themes:standalone": "node ./out/standalone/build.js",
     "release:major": "yarn build && yarn build-themes:standalone && vsce publish major && git push",
     "release:minor": "yarn build && yarn build-themes:standalone && vsce publish minor && git push",
-    "release:patch": "yarn build && yarn build-themes:standalone && vsce publish patch && git push"
+    "release:patch": "yarn build && yarn build-themes:standalone && vsce publish patch && git push",
+    "update": "yarn build && yarn build-themes:standalone && vsce package out"
   },
   "categories": [
     "Themes",
