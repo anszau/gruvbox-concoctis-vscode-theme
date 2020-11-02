@@ -13,7 +13,7 @@ function producePalette(palette) {
     string: palette.green,
     stringInterpolated: palette.darkGreen,
     number: palette.purple,
-    function: palette.aqua,
+    function: palette.fg0,
     support: palette.blue,
     misc: palette.aqua,
     invalid: palette.red
