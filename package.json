@@ -3,7 +3,7 @@
   "displayName": "Gruvbox Concoctis",
   "description": "Concoction of Gruvbox themes",
   "version": "10.30.27",
-  "publisher": "wheredoesyourmindgo",
+  "publisher": "anszau",
   "icon": "images/logo.png",
   "activationEvents": [
     "*"
@@ -18,7 +18,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/wheredoesyourmindgo/gruvbox-concoctis"
+    "url": "https://github.com/anszau/gruvbox-concoctis"
   },
   "scripts": {
     "build:ts": "tsc -p src",
@@ -120,8 +120,8 @@
   "dependencies": {},
   "__metadata": {
     "id": "",
-    "publisherId": "wheredoesyourmindgo",
-    "publisherDisplayName": "wheredoesyourmindgo"
+    "publisherId": "anszau",
+    "publisherDisplayName": "anszau"
   },
   "devDependencies": {
     "@types/node": "^13.11.0",
