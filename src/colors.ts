@@ -5,17 +5,17 @@ function producePalette(palette) {
     comment: palette.grey1,
     comment_emphasis: palette.grey2,
     text: palette.fg,
-    keyword: palette.purple,
+    keyword: palette.red,
     variable: palette.fg,
     annotation: palette.fg1,
     constant: palette.yellow,
     tag: palette.orange,
     string: palette.green,
-    stringInterpolated: palette.green,
-    number: palette.red,
+    stringInterpolated: palette.darkGreen,
+    number: palette.purple,
     function: palette.aqua,
-    support: palette.aqua,
-    misc: palette.blue,
+    support: palette.blue,
+    misc: palette.aqua,
     invalid: palette.red
   }
 }
